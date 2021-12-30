@@ -1,0 +1,247 @@
+#: empty-cart-button-for-woocommerce.php:143
+msgid "Settings"
+msgstr ""
+
+#: empty-cart-button-for-woocommerce.php:145
+msgid "Unlock All"
+msgstr ""
+
+#: includes/class-alg-wc-empty-cart-button-core.php:91
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:236
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:36
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:52
+msgid "Do not add"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:37
+msgid "Before checkout form"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:38
+msgid "After checkout form"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:53
+msgid "Before cart"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:54
+msgid "After \"Apply coupon\" button"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:55
+msgid "After \"Update cart\" button"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:56
+msgid "After \"Proceed to checkout\" button"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:57
+msgid "After cart totals"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:58
+msgid "After cart"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:74
+msgid "Empty Cart Button Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:79
+#: includes/settings/class-alg-wc-settings-empty-cart-button.php:24
+msgid "Empty Cart Button"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:80
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:82
+msgid "Empty Cart Button for WooCommerce."
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:92
+msgid "Position Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:94
+#, php-format
+msgid ""
+"Alternatively you can also use %s shortcode or %s PHP code to add \"empty "
+"cart\" button anywhere on your site."
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:102
+msgid "Cart: Button position"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:103
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:121
+#, php-format
+msgid "Possible positions are: %s."
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:113
+msgid "Cart: Button position priority"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:114
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:129
+msgid ""
+"Change this if you want to move the button inside the Position selected "
+"above."
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:120
+msgid "Checkout: Button position"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:128
+msgid "Checkout: Button position priority"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:139
+msgid "Style Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:141
+#, php-format
+msgid ""
+"Alternatively, if using %s shortcode, you can style the button with %s "
+"attributes, e.g.:<br>%s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:150
+msgid "Cart: HTML template"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:151
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:173
+#, php-format
+msgid "HTML template for wrapping the button. Replaced value: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:158
+msgid "Cart: Button HTML class"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:165
+msgid "Cart: Button HTML style"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:172
+msgid "Checkout: HTML template"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:180
+msgid "Checkout: Button HTML class"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:187
+msgid "Checkout: Button HTML style"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:198
+msgid "Label Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:203
+msgid "Button label"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:217
+msgid "Confirmation Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:218
+msgid ""
+"In this section you can select if you want user to confirm after empty cart "
+"button was pressed."
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:223
+msgid "Confirmation"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:228
+msgid "No confirmation"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:229
+msgid "Confirm by pop up box"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:233
+msgid "Confirmation text"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:234
+msgid "Ignored if confirmation is not enabled."
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:245
+msgid "Redirect Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:246
+msgid ""
+"In this section you can select if you want to redirect the user to another "
+"page after cart is emptied."
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:251
+msgid "Redirect"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:252
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:261
+msgid "Redirect location"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:262
+msgid "Ignored if redirect is not enabled."
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:273
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:278
+msgid "Button type"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:284
+msgid "Form"
+msgstr ""
+
+#: includes/settings/class-alg-wc-empty-cart-button-settings-general.php:285
+msgid "Hyperlink"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-empty-cart-button.php:38
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-empty-cart-button.php:43
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-empty-cart-button.php:44
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-empty-cart-button.php:83
+msgid "Your settings have been reset."
+msgstr ""

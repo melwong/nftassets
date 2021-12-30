@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: Patrios\n"
+"POT-Creation-Date: 2019-02-19 10:12+0000\n"
+"PO-Revision-Date: 2019-02-20 13:02+0000\n"
+"Last-Translator: Melvin Wong <melvinwonghc@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Language: en_US\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: functions.php:31
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:32
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:108 lib/sub-header.php:65
+#: lib/main-function/patrios-register.php:26
+msgid "Shop"
+msgstr "Projects"
+
+#: functions.php:145 functions.php:176
+msgid "Select category icon"
+msgstr ""
+
+#: functions.php:159
+msgid "Add Category Icon"
+msgstr ""
+
+#: functions.php:162 functions.php:205 functions.php:208
+msgid "Category Color Option"
+msgstr ""
+
+#: functions.php:164
+msgid "Add Category Color"
+msgstr ""
+
+#: functions.php:167 functions.php:219
+msgid "Category Sub Title"
+msgstr ""
+
+#: functions.php:169 functions.php:222
+msgid "Add sub title"
+msgstr ""
+
+#: functions.php:287
+msgid "Please Sign In first"
+msgstr ""
+
+#. Name of the template
+msgid "404 Page Template"
+msgstr ""
+
+#: 404.php:11
+msgid "404"
+msgstr ""
+
+#: 404.php:14
+msgid "Oops! you’ve encountered an error!"
+msgstr ""
+
+#: 404.php:16
+msgid "HOME"
+msgstr ""
+
+#: 404.php:17
+msgid "Go Home"
+msgstr ""
+
+#. Name of the template
+msgid "Page With Right Sidebar"
+msgstr ""
+
+#: comments.php:13
+#: wpneotemplate/woocommerce/basic/include/tabs/baker-list-tab.php:14
+msgid "Name"
+msgstr ""
+
+#: comments.php:14 header.php:261
+msgid "Email"
+msgstr ""
+
+#: comments.php:15
+msgid "Website url"
+msgstr ""
+
+#: comments.php:21
+msgid "Write a comment"
+msgstr ""
+
+#: comments.php:24
+msgid "Comment"
+msgstr ""
+
+#: comments.php:25
+msgid "Send Comment"
+msgstr ""
+
+#: comments.php:35
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:35
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:35
+msgid "Comment List"
+msgstr ""
+
+#: comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:54
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: woocommerce.php:73 woocommerce/content-product.php:75
+#: wpneotemplate/woocommerce/basic/include/fund-raised.php:74
+msgid "Raised"
+msgstr ""
+
+#: woocommerce.php:80 woocommerce/content-product.php:82
+msgid "Goal"
+msgstr ""
+
+#: woocommerce.php:103 woocommerce/content-product.php:108
+#: wpneotemplate/woocommerce/basic/include/fund_raised_percent.php:35
+msgid "Funded"
+msgstr ""
+
+#: woocommerce.php:138
+msgid "Latest Projects"
+msgstr ""
+
+#: woocommerce.php:139
+msgid "Discover what’s possible when a community creates together"
+msgstr ""
+
+#. Name of the template
+msgid "Coming Soon"
+msgstr ""
+
+#: coming-soon.php:18
+msgid "Coming Soon."
+msgstr ""
+
+#: coming-soon.php:21
+msgid "We are come back soon"
+msgstr ""
+
+#: coming-soon.php:28
+msgid "Days"
+msgstr ""
+
+#: coming-soon.php:29
+msgid "Hours"
+msgstr ""
+
+#: coming-soon.php:30
+msgid "Minutes"
+msgstr ""
+
+#: coming-soon.php:31
+msgid "Seconds"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Fullwidth"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Right Sidebar"
+msgstr ""
+
+#: header.php:61
+msgid "Logo"
+msgstr ""
+
+#: header.php:136
+msgid "Login/Sign Up"
+msgstr ""
+
+#: header.php:142
+msgid "Logout"
+msgstr ""
+
+#: header.php:206
+msgid "Search here..."
+msgstr ""
+
+#: header.php:224 header.php:269
+msgid "Sign In"
+msgstr ""
+
+#: header.php:225
+msgid "Don’t worry, we won’t spam you or sell your information."
+msgstr ""
+
+#: header.php:232
+msgid "Remember me"
+msgstr ""
+
+#: header.php:239
+msgid "Forgot password?"
+msgstr ""
+
+#: header.php:242 header.php:254
+msgid "Sign Up"
+msgstr ""
+
+#: header.php:255
+msgid "By signing up you agree to all the Terms and conditions."
+msgstr ""
+
+#: header.php:260
+msgid "Username"
+msgstr ""
+
+#: header.php:262
+msgid "Password"
+msgstr ""
+
+#. Name of the template
+msgid "Page With Left Sidebar"
+msgstr ""
+
+#: single.php:49 page.php:31 post-format/entry-content-blog.php:8
+msgid "Pages:"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Homepage Default"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search . . . . ."
+msgstr ""
+
+#: lib/sub-header.php:97
+msgid "Search"
+msgstr ""
+
+#: lib/sub-header.php:125
+msgid "Event Details"
+msgstr ""
+
+#: lib/sub-header.php:127
+msgid "Albums"
+msgstr ""
+
+#: lib/sub-header.php:129
+msgid "Gallery"
+msgstr ""
+
+#: lib/sub-header.php:131
+msgid "Performer"
+msgstr ""
+
+#: post-format/content-gallery.php:14
+msgid "image"
+msgstr ""
+
+#: post-format/content-gallery.php:55 post-format/content.php:46
+#: post-format/content-audio.php:34 post-format/content-video.php:40
+#: post-format/content-quote.php:36 post-format/content-link.php:52
+#: post-format/content-image.php:41
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: post-format/content-none.php:3
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: post-format/content-none.php:7
+msgid "Error Search"
+msgstr ""
+
+#: post-format/content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: post-format/content-none.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: post-format/content-none.php:17
+msgid "Find Posts"
+msgstr ""
+
+#: post-format/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: woocommerce/content-product.php:38
+msgid "Project You Love"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:13
+msgid "Sidebar"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:15
+msgid "Widgets in this area will be shown on Sidebar."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:28
+msgid "Widgets in this area will be shown on Shop Sidebar."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:38
+msgid "Bottom 1"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:40
+msgid "Widgets in this area will be shown before Bottom 1."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:49
+msgid "Bottom 2"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:51
+msgid "Widgets in this area will be shown before Bottom 2."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:60
+msgid "Bottom 3"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:62
+msgid "Widgets in this area will be shown before Bottom 3."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:71
+msgid "Bottom 4"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:73
+msgid "Widgets in this area will be shown before Bottom 4."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:82
+msgid "Bottom 5"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:84
+msgid "Widgets in this area will be shown before Bottom 5."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:105
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:176
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:215
+msgid "Patrios Core"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:234
+msgid "WP Pagebuilder"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:243
+msgid "WP Page Builder Pro"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:253
+msgid "WP Crowdfunding"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:273
+msgid "WP Mega Menu"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:282
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:291
+msgid "Widget Importer & Exporter"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:313
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:314
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:315
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:316
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:317
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/main-function/patrios-register.php:318
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/main-function/patrios-register.php:319
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:31 woocommerce/loop/pagination.php:19
+msgid "PREV"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:31 woocommerce/loop/pagination.php:19
+msgid "NEXT"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:72
+msgid "Edit"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:75
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/main-function/patrios-core.php:78
+msgid "Reply"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:99
+msgid "Home"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:110
+msgid "shop"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:113
+msgid "Posts Tagged "
+msgstr ""
+
+#: lib/main-function/patrios-core.php:115
+#: lib/main-function/patrios-core.php:117
+#: lib/main-function/patrios-core.php:119
+msgid "Posts made in"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:121
+msgid "Search results for"
+msgstr ""
+
+#: lib/main-function/patrios-core.php:148
+msgid "Posts by "
+msgstr ""
+
+#: lib/main-function/patrios-core.php:152
+msgid "Blog"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:100
+msgid "sub item"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:115
+msgid "Move up"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:128
+msgid "Move down"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:130
+#: lib/menu/admin-megamenu-walker.php:132
+msgid "Edit Menu Item"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:141
+msgid "URL"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:149
+msgid "Navigation Label"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:156
+msgid "Title Attribute"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:164
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:170
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:177
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:184
+msgid "Description"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:186
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:194
+msgid "Megamenu Settings"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:209
+msgid "Coulumn Number"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:223
+msgid "Move"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:224
+msgid "Up one"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:225
+msgid "Down one"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:228
+msgid "To the top"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:235
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:248
+msgid "Remove"
+msgstr ""
+
+#: lib/menu/admin-megamenu-walker.php:249
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:78
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:96
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:102
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:119
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:91
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/single-product/review.php:28
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:37
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/review.php:46
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:47
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:45
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/related.php:18
+msgid "Related Products"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/wpneo-functions.php:13
+msgid "Campaigns by: "
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/pagination.php:19
+msgid "Prev"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/pagination.php:20
+msgid "Next"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/fund_raised_percent.php:9
+#: wpneotemplate/woocommerce/basic/include/loop/fund_raised_percent.php:9
+msgid "Raised Percent"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/fund_raised_percent.php:27
+#: wpneotemplate/woocommerce/basic/include/loop/time_remaining.php:15
+msgid "Days to go"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/single-bakers-counter.php:8
+msgid "People backed this so far"
+msgstr "People supported this so far"
+
+#: wpneotemplate/woocommerce/basic/include/days-remaining.php:10
+msgid "Days to Go"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/fund-raised.php:20
+msgid "Backer"
+msgstr "Supporter"
+
+#: wpneotemplate/woocommerce/basic/include/fund-raised.php:20
+#: wpneotemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:121
+msgid "Backers"
+msgstr "Supporters"
+
+#: wpneotemplate/woocommerce/basic/include/fund-raised.php:32
+msgid "Love it"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/fund-raised.php:50
+msgid "Reviews"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/fund-raised.php:81
+msgid " Goal"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/fund-campaign-btn.php:7
+msgid "Back This Project"
+msgstr "Support This Project"
+
+#: wpneotemplate/woocommerce/basic/include/loop/funding_goal.php:11
+msgid "Funding Goal"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/loop/no-campaigns-found.php:7
+msgid "No campaigns found here."
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/loop/time_remaining.php:5
+msgid "0"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/loop/fund_raised.php:14
+msgid "Fund Raised"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/loop/thumbnail.php:11
+msgid "View Campaign"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/loop/author.php:7
+msgid "by"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:42
+msgid "Make a pledge without a reward"
+msgstr "Make a pledge without buying a ticket"
+
+#: wpneotemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:44
+msgid "Minimum amount is "
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:45
+msgid "Maximum amount is "
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:65
+msgid "Rewards"
+msgstr "Tickets"
+
+#: wpneotemplate/woocommerce/basic/include/tabs/rewards-sidebar-form.php:130
+msgid "Estimated Delivery: "
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:87
+msgid "About the campaign creator"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:114
+msgid " Campaigns"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:114
+msgid " Loved campaigns"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:120
+msgid "About"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:127
+msgid "Portfolio"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:133
+msgid "Contact Info"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:135
+msgid "Email: "
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:138
+msgid "Phone: "
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:141
+msgid "Fax: "
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:144
+msgid "Website: "
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:147
+msgid "Contact Me"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/story-tab.php:152
+msgid "Social Link"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/baker-list-tab.php:15
+msgid "Donate Amount"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/baker-list-tab.php:16
+msgid "Date"
+msgstr ""
+
+#: wpneotemplate/woocommerce/basic/include/tabs/baker-list-tab.php:36
+#: wpneotemplate/woocommerce/basic/include/tabs/baker-list-tab.php:40
+msgid "Anonymous"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Patrios"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Advanced WordPress crowdfunding theme to kickstart your own fundraising "
+"platform."
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themeum.com/wordpress/patrios"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themeum"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeum.com/"
+msgstr ""

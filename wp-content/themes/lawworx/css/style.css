@@ -1,0 +1,380 @@
+.align-center{
+	align-items: center;
+    display: flex;
+}
+.banner-text-content>*{
+	color:#ffffff;
+	text-align:center;
+}
+
+.banner-text-content h5{
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+}
+.banner-text-content h5 {
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 20px;
+    cursor: default;
+}
+.banner-text-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+  /*   text-transform: uppercase */;
+    color: #ffffff;
+    cursor: default;
+}
+.single-post-nav{
+	background:none;
+}
+.app_heading{
+	position: relative;
+    border-bottom: 1px solid #e2e2e2;
+    background: #fafafa;
+}
+.app_heading .comment-title{
+	margin:0px;
+	padding:15px 10px;
+}
+.comment-reply-title{
+	position: relative;
+    border-bottom: 1px solid #e2e2e2;
+    background: #fafafa;
+	margin:0px;
+	padding:15px 10px;
+}
+
+.breadcrumb{
+	display:inline-block;
+	background-color:unset;
+}
+.breadcrumb {
+	color:#000000;
+}
+/* .breadcrumb a:hover{
+	color:#dcdcdc;
+} */
+
+.nav-links .page-numbers{
+	padding:20px 26px;
+}
+
+.app_blog_img{
+	min-height:200px;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: left;
+    margin: 0 1.8% 2.992em 0;
+    padding: 10px;
+    position: relative;
+    width: 23.2%;
+    margin-left: 0;
+}
+.front_img{
+	transition-duration: .3s;
+    transition-property: transform;
+}
+
+.front_img:hover{
+	transform: scale(1.1);
+}
+
+/* lawworx css*/
+.lawworx-banner-area{
+	position:relative;
+}
+
+.blog-post{
+    overflow: hidden;
+	border-bottom: 1px solid #e6f0fa;
+	
+    padding: 45px 35px;
+	
+   /*  border-radius: 0px;
+    -webkit-box-shadow: 0 0 10px #e6f0fa;
+    box-shadow: 0 0 10px #e6f0fa; */
+}
+.meta-post-page{
+	background:#f8f8f8;
+	padding:15px;
+}
+.meta-post-page span, .meta-post-page i{
+	margin-right:5px;
+}
+.special .hentry .title-post{
+	font-size:40px;
+}
+.site-header .site-title{
+	font-size:35px;
+}
+.site-header .site-description{
+	font-size:16px;
+}
+
+/*--------------------------------------------------------------
+Blog
+--------------------------------------------------------------*/
+	
+	#content {
+		word-wrap: break-word;
+	}
+	
+	.content-area .hentry {
+		position: relative;
+		display: contents;
+		padding-top: 0px; 
+	}	
+	.content-area .hentry .col-md-6{
+		/* padding-top: 30px; */
+		padding-bottom: 50px;
+	}
+	.content-area .hentry:nth-last-child(2) .col-md-6{
+		float:right;
+	}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]{
+    width: 100%;
+    padding: 3px 25px;
+    line-height: 20px;
+    color: #545454;
+    border-radius: 3px;
+    font-weight: 300;
+	height:60px;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus{
+	border:none;
+}
+input::placeholder{
+	color:#545454;
+	
+}
+textarea{
+	height:auto;
+}
+.widget-section.blog-sidebar .widget{
+	position: relative;
+    margin-bottom: 30px;
+	background-color: #f8f8f8;
+    padding: 45px 35px;
+    /* border-radius: 10px; 
+    -webkit-box-shadow: 0 0 10px #e6f0fa;
+	  border: 1px solid #e6f0fa;
+    box-shadow: 0 0 10px #e6f0fa;*/
+}
+.plan-price{
+	padding:10px;
+}
+.plan-price.style2{
+	
+}
+.app_price_mid{
+	transform: scale(1.2);
+    z-index: 2;
+}
+.scale1-2{
+	transition:1s;
+}
+.scale1-2:hover{
+	transform: scale(1.05);
+    z-index: 2;
+}
+.bizworx-latest-news .owl-item{
+	padding:6px;
+}
+.owl-pagination {
+bottom:-40px;
+}
+.bizworx-latest-news .meta-post{
+	display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    position: relative;
+	top:-20px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.5);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+.bizworx-latest-news .meta-post a{
+	color:#fff;
+}
+/* .background-wave.style1::after{
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    background: url(../images/wave.png) no-repeat bottom center; 
+    content: "";
+    height: 105px;
+	background-size:cover;
+}
+.background-wave.style1.mlr{
+margin:0 -10px;
+} */
+.corpo_progerss_bar .elementor-progress-wrapper{
+	height:	11px;
+	line-height:10px;
+}
+.corpo_animation::before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: 0px;
+    height: 3px;
+    width: 0px;
+    background-color: #2154CF;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+	}
+	.corpo_animation:hover::before{
+		width:100%;
+		-webkit-transform: scale(1, 1);
+		-ms-transform: scale(1, 1);
+		transform: scale(1, 1); 
+	}
+.corpo_animation.mlr::before{	
+	margin: 0 10px;
+}
+.corpo_animation.mlr:hover::before{	
+	width: 93%;
+}
+.banner-button{
+	margin-top:5px;
+	margin-left:30px;
+}
+
+
+.img_grayscale{
+-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.img_grayscale:hover{
+-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+/* web kid elementor csss */
+.tgx-testimonial-2 .owl-carousel-left, .tgx-testimonial-2 .owl-carousel-right{
+	line-height:40px;
+}
+/*lawworx*/
+.header-contact .fa{
+	font-size:25px;
+}
+.other-header{
+	background-size:cover;
+}
+.header-contact-info{
+	text-align:right;
+}
+
+.footer-widgets .widget-column .widget{
+	list-style:none;
+	padding:10px 20px;
+	margin:20px 0;
+}
+button, .button{
+	padding:8px 15px;
+}
+
+/*lawworx*/
+.first-l::first-letter{
+ color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+#site-navigation ul li ul{
+	top:130%;
+}
+.mr-a{
+	margin:auto;
+}
+.footer-widgets, .footer-widgets a, .footer-widgets h1, .footer-widgets h1, .footer-widgets h3, .footer-widgets h4, .footer-widgets h5, .footer-widgets h6 {
+	color:#fff;
+}
+
+/*sticky menu*/
+
+.btn-menu{
+	position: absolute;
+    bottom: 0;
+    right: 7%;
+}
+@media (min-width: 768px){
+	.banner-text-content h5 {
+		font-size: 16px;
+		font-style:italic;
+		margin-bottom: 5px;
+	}
+	.banner-text-content h1 {
+		font-size: 40px;
+		line-height: 40px;
+		font-weight: 700;
+		margin-bottom: 15px;
+	}
+
+	
+}
+
+@media (max-width: 768px){
+    
+    .site-title, .site-description{
+        text-align:center;
+    }
+
+}
+
+@media (min-width: 992px){
+	.banner-text-content h5 {
+		font-size: 18px;
+	}
+	.banner-text-content h1 {
+		font-size: 55px;
+		line-height: 55px;
+	}
+
+}
+
+@media (min-width: 1200px){
+	.banner-text-content h1 {
+		font-size: 68px;
+		line-height: 78px;
+	}
+}
+
+@media (min-width: 1025px){
+	.head-wrap .container > .row {
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	
+	.site-header #site-navigation ul li ul{
+		 /*  margin-left: 9px;   */
+	}
+	
+}
+
+@media (max-width: 1024px){
+	
+	.btn-menu {
+		display: block;
+	}
+}
+
+

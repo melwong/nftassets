@@ -1,0 +1,69 @@
+
+---Downloaded files---
+The import files for: Demo1 were successfully downloaded!
+Initial max execution time = 90
+Files info:
+Site URL = https://boothstand.com
+Data file = /home/boothsta/public_html/wp-content/uploads/2019/04/demo-content-import-file_2019-04-21__05-48-35.xml
+Widget file = not defined!
+Customizer file = /home/boothsta/public_html/wp-content/uploads/2019/04/demo-customizer-import-file_2019-04-21__05-48-35.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

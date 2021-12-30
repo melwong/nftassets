@@ -1,0 +1,943 @@
+# Copyright (C) 2018 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/myticket-plugin\n"
+"POT-Creation-Date: 2018-11-16 03:08:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: custom/post-types/myticket-extention.php:71
+msgid "MyTicket Extra Details"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:80
+msgid "Date/Time"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:81
+msgid "Select event date time and zone"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:88
+msgid "Location Title"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:89
+msgid "Location title/Venue is used for visual representation only. "
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:95
+msgid "Location Address"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:96
+msgid "Location address is used for visual representation. Map searches are only performed based on location coordinates that can be provided below."
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:102
+msgid "Location Coordinates"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:103
+msgid "Location latitude and longitude separated by comma. Ex.: 124.34343, -23.3423"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:109
+msgid "Action"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:110
+msgid "Choose default CTA button action. For example, if user clicks on buy ticket now button redirect him to a cutom page."
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:115
+msgid "Product Page"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:116
+#: custom/post-types/myticket-extention.php:122
+msgid "Custom Link"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:123
+msgid "If \"Custom Link\" option selected above please specify a link here"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:134
+msgid "Title"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:135
+msgid "Preview"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:136
+msgid "Shortcode"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:137
+msgid "Date"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:206
+#: custom/post-types/myticket-extention.php:207
+msgid "commerces"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:208
+#: custom/post-types/myticket-extention.php:209
+#: custom/post-types/myticket-gallery.php:118
+#: custom/post-types/myticket-gallery.php:119
+msgid "Add New"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:210
+#: custom/post-types/myticket-gallery.php:120
+msgid "Edit Item"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:211
+#: custom/post-types/myticket-gallery.php:121
+msgid "Add New  Item"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:212
+#: custom/post-types/myticket-gallery.php:122
+msgid "View Item"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:213
+#: custom/post-types/myticket-gallery.php:123
+msgid "Search Items"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:214
+#: custom/post-types/myticket-gallery.php:124
+msgid "No items found"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:215
+#: custom/post-types/myticket-gallery.php:125
+msgid "No items found in trash"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:249
+#: custom/post-types/myticket-extention.php:251
+#: custom/post-types/myticket-gallery.php:162
+#: custom/post-types/myticket-gallery.php:164
+msgid "Tags"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:250
+#: custom/post-types/myticket-gallery.php:163
+msgid "Tag"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:252
+#: custom/post-types/myticket-gallery.php:165
+msgid "Edit Tag"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:253
+#: custom/post-types/myticket-gallery.php:166
+msgid "Update Tag"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:254
+#: custom/post-types/myticket-gallery.php:167
+msgid "Add New Tag"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:255
+#: custom/post-types/myticket-gallery.php:168
+msgid "New  Tag Name"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:256
+#: custom/post-types/myticket-gallery.php:169
+msgid "Parent Tag"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:257
+#: custom/post-types/myticket-gallery.php:170
+msgid "Parent Tag:"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:258
+#: custom/post-types/myticket-gallery.php:171
+msgid "All Tags"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:259
+#: custom/post-types/myticket-gallery.php:172
+msgid "Search  Tags"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:260
+#: custom/post-types/myticket-gallery.php:173
+msgid "Popular Tags"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:261
+#: custom/post-types/myticket-gallery.php:174
+msgid "Separate tags with commas"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:262
+#: custom/post-types/myticket-gallery.php:175
+msgid "Add or remove tags"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:263
+#: custom/post-types/myticket-gallery.php:176
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:264
+#: custom/post-types/myticket-gallery.php:177
+msgid "No  tags found."
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:300
+#: custom/post-types/myticket-extention.php:302
+#: custom/post-types/myticket-gallery.php:207
+#: custom/post-types/myticket-gallery.php:209
+msgid "Categories"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:301
+#: custom/post-types/myticket-gallery.php:208
+msgid "Category"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:303
+#: custom/post-types/myticket-gallery.php:210
+msgid "Edit Category"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:304
+#: custom/post-types/myticket-gallery.php:211
+msgid "Update Category"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:305
+#: custom/post-types/myticket-gallery.php:212
+msgid "Add New Category"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:306
+#: custom/post-types/myticket-gallery.php:213
+msgid "New Category Name"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:307
+#: custom/post-types/myticket-gallery.php:214
+msgid "Parent Category"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:308
+#: custom/post-types/myticket-gallery.php:215
+msgid "Parent Category:"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:309
+#: custom/post-types/myticket-gallery.php:216
+msgid "All Categories"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:310
+#: custom/post-types/myticket-gallery.php:217
+msgid "Search Categories"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:311
+#: custom/post-types/myticket-gallery.php:218
+msgid "Popular Categories"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:312
+#: custom/post-types/myticket-gallery.php:219
+msgid "Separate categories with commas"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:313
+#: custom/post-types/myticket-gallery.php:220
+msgid "Add or remove categories"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:314
+#: custom/post-types/myticket-gallery.php:221
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:315
+#: custom/post-types/myticket-gallery.php:222
+msgid "No categories found."
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:372
+#: custom/post-types/myticket-gallery.php:278
+msgid "Thumbnail"
+msgstr ""
+
+#: custom/post-types/myticket-extention.php:450
+msgid "commerce Item Item"
+msgid_plural "commerce Item Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: custom/post-types/myticket-extention.php:462
+msgid "commerce Item Item Pending"
+msgid_plural "commerce Item Items Pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: custom/post-types/myticket-gallery.php:49
+msgid "Image options"
+msgstr ""
+
+#: custom/post-types/myticket-gallery.php:59
+msgid "Link"
+msgstr ""
+
+#: custom/post-types/myticket-gallery.php:60
+msgid "opens link if once image is clicked (optional)"
+msgstr ""
+
+#: custom/post-types/myticket-gallery.php:116
+msgid "Gallery"
+msgstr ""
+
+#: custom/post-types/myticket-gallery.php:117
+msgid "Gallery Images"
+msgstr ""
+
+#: custom/post-types/myticket-gallery.php:356
+msgid "gallery Item Item"
+msgid_plural "gallery Item Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: custom/post-types/myticket-gallery.php:368
+msgid "gallery Item Item Pending"
+msgid_plural "gallery Item Items Pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: custom/post-types/myticket-identities.php:371
+msgid "identities Item Item"
+msgid_plural "identities Item Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: custom/post-types/myticket-identities.php:383
+msgid "identities Item Item Pending"
+msgid_plural "identities Item Items Pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: custom/setup.php:85
+msgid "MyTicket Widgets"
+msgstr ""
+
+#: custom/setup.php:104
+msgid "If you experience server error 500 during import process please read the following <a target=\"_blank\" href=\"https://github.com/proteusthemes/one-click-demo-import/blob/master/docs/import-problems.md#user-content-server-error-500\" >article</a>. You may also install this theme on <a target=\"blank\" href=\"http://kenzap.com/signin/?project=myticket\" >Kenzap cloud</a> for free or request paid installation/assistance with your hosting environment."
+msgstr ""
+
+#: custom/twitter.php:23
+msgid "Please fill all MyTicket Twitter settings!"
+msgstr ""
+
+#: custom/twitter.php:36 custom/widgets/myticket-twitter.php:65
+msgid "Couldn't find twitteroauth.php!"
+msgstr ""
+
+#: custom/twitter.php:54 custom/widgets/myticket-twitter.php:79
+msgid "You'll need to regenerate it <a href=\"https://apps.twitter.com/\" target=\"_blank\">here</a>!"
+msgstr ""
+
+#: custom/twitter.php:97
+msgid "Follow"
+msgstr ""
+
+#: custom/twitter.php:138
+msgid "Couldn't retrieve tweets! Verify your credentials."
+msgstr ""
+
+#: custom/widgets/myticket-categories.php:19
+#: custom/widgets/myticket-categories.php:21
+msgid "MyTicket categories filter widget"
+msgstr ""
+
+#: custom/widgets/myticket-categories.php:44
+#: custom/widgets/myticket-header.php:44 custom/widgets/myticket-pricing.php:44
+msgid "Price"
+msgstr ""
+
+#: custom/widgets/myticket-categories.php:62
+msgid "All"
+msgstr ""
+
+#: custom/widgets/myticket-categories.php:117
+#: custom/widgets/myticket-header.php:91
+#: custom/widgets/myticket-pricing.php:104
+#: custom/widgets/myticket-twitter.php:193
+msgid "Title:"
+msgstr ""
+
+#: custom/widgets/myticket-categories.php:120
+msgid "Separate categories by comma:"
+msgstr ""
+
+#: custom/widgets/myticket-header.php:19 custom/widgets/myticket-header.php:21
+msgid "MyTicket heading widget"
+msgstr ""
+
+#: custom/widgets/myticket-header.php:94
+msgid "Subtitle:"
+msgstr ""
+
+#: custom/widgets/myticket-pricing.php:19
+#: custom/widgets/myticket-pricing.php:21
+msgid "MyTicket pricing filter widget"
+msgstr ""
+
+#: custom/widgets/myticket-pricing.php:107
+msgid "Min value:"
+msgstr ""
+
+#: custom/widgets/myticket-pricing.php:111
+msgid "Max value:"
+msgstr ""
+
+#: custom/widgets/myticket-pricing.php:115
+msgid "Min default value:"
+msgstr ""
+
+#: custom/widgets/myticket-pricing.php:119
+msgid "Max default value:"
+msgstr ""
+
+#: custom/widgets/myticket-pricing.php:123
+msgid "Step value:"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:19
+msgid "A widget that displays tweets"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:21
+msgid "myticket Tweets"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:45
+msgid "Twitter"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:151
+msgid "<b>Error!</b> Couldn't retrieve tweets for some reason!"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:195
+msgid "Tweets to display:"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:248
+msgid "right now"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:250
+msgid " seconds ago"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:252
+msgid "about 1 minute ago"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:254
+msgid " minutes ago"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:256
+msgid "about 1 hour ago"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:258
+msgid " hours ago"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:260
+msgid "yesterday"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:262
+msgid " days ago"
+msgstr ""
+
+#: custom/widgets/myticket-twitter.php:264
+msgid "over a year ago"
+msgstr ""
+
+#: inc/setup/importer/parsers.php:42 inc/setup/importer/parsers.php:72
+#: inc/setup/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/setup/importer/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: inc/setup/importer/parsers.php:84 inc/setup/importer/parsers.php:89
+#: inc/setup/importer/parsers.php:279 inc/setup/importer/parsers.php:468
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:134
+#: inc/setup/importer/wordpress-importer.php:143
+#: inc/setup/importer/wordpress-importer.php:194
+#: inc/setup/importer/wordpress-importer.php:198
+#: inc/setup/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:199
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:215
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:240
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:267
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:269
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:374
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:425
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:465
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:511
+#: inc/setup/importer/wordpress-importer.php:652
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:537
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:559
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:618
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:790
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:910 inc/setup/setup.php:1617
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:916
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:923 inc/setup/setup.php:1626
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:928 inc/setup/setup.php:1632
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:934 inc/setup/setup.php:1638
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:1040
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:1055
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/setup/importer/wordpress-importer.php:1131
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr ""
+
+#: inc/setup/setup.php:340
+msgid "Setup Wizard"
+msgstr ""
+
+#: inc/setup/setup.php:355
+msgid "Introduction"
+msgstr ""
+
+#: inc/setup/setup.php:362 inc/setup/setup.php:2009
+msgid "Welcome"
+msgstr ""
+
+#: inc/setup/setup.php:375
+msgid "Plugins"
+msgstr ""
+
+#: inc/setup/setup.php:391
+msgid "Support"
+msgstr ""
+
+#: inc/setup/setup.php:396
+msgid "Docs"
+msgstr ""
+
+#: inc/setup/setup.php:401
+msgid "Content"
+msgstr ""
+
+#: inc/setup/setup.php:434
+msgid "...verifying"
+msgstr ""
+
+#: inc/setup/setup.php:483
+msgid "Theme &rsaquo; Setup Wizard"
+msgstr ""
+
+#: inc/setup/setup.php:501
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: inc/setup/setup.php:597 inc/setup/setup.php:619 inc/setup/setup.php:643
+msgid "Welcome to the setup wizard for %s."
+msgstr ""
+
+#: inc/setup/setup.php:598
+msgid "It looks like you may have recently upgraded to this theme. Great! This setup wizard will help ensure all the default settings are correct. It will also show some information about your new website and support options."
+msgstr ""
+
+#: inc/setup/setup.php:601 inc/setup/setup.php:648
+msgid "Let's Go!"
+msgstr ""
+
+#: inc/setup/setup.php:603 inc/setup/setup.php:650
+msgid "Not right now"
+msgstr ""
+
+#: inc/setup/setup.php:608
+msgid "Please deactivate %s theme before install."
+msgstr ""
+
+#: inc/setup/setup.php:612
+msgid "Switch themes"
+msgstr ""
+
+#: inc/setup/setup.php:614 inc/setup/setup.php:637
+msgid "Cancel"
+msgstr ""
+
+#: inc/setup/setup.php:620
+msgid "It looks like you have already run the setup wizard. Below are some options: "
+msgstr ""
+
+#: inc/setup/setup.php:624
+msgid "Run Setup Wizard Again"
+msgstr ""
+
+#: inc/setup/setup.php:630
+msgid "Reset font style and colors"
+msgstr ""
+
+#: inc/setup/setup.php:644
+msgid "Thank you for choosing the %s theme. This quick setup wizard will help you configure your new website. This wizard will install the required WordPress plugins, default content, logo and tell you a little about Help &amp; Support options. It should only take 5 minutes."
+msgstr ""
+
+#: inc/setup/setup.php:645
+msgid "No time right now? If you don't want to go through the wizard, you can skip and return to the WordPress dashboard. Come back anytime if you change your mind!"
+msgstr ""
+
+#: inc/setup/setup.php:771
+msgid "Default Plugins"
+msgstr ""
+
+#: inc/setup/setup.php:797
+msgid "Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+
+#: inc/setup/setup.php:801 inc/setup/setup.php:959 inc/setup/setup.php:1003
+#: inc/setup/setup.php:1944 inc/setup/setup.php:2063 inc/setup/setup.php:2143
+#: inc/setup/setup.php:2207
+msgid "Continue"
+msgstr ""
+
+#: inc/setup/setup.php:802 inc/setup/setup.php:960 inc/setup/setup.php:1004
+#: inc/setup/setup.php:1945 inc/setup/setup.php:2134 inc/setup/setup.php:2201
+msgid "Skip this step"
+msgstr ""
+
+#: inc/setup/setup.php:811
+msgid "No Slug Found"
+msgstr ""
+
+#: inc/setup/setup.php:827
+msgid "Activating Plugin"
+msgstr ""
+
+#: inc/setup/setup.php:842
+msgid "Updating Plugin"
+msgstr ""
+
+#: inc/setup/setup.php:857
+msgid "Installing Plugin"
+msgstr ""
+
+#: inc/setup/setup.php:867
+msgid "Success"
+msgstr ""
+
+#: inc/setup/setup.php:887
+msgid "This will create default %s as seen in the demo."
+msgstr ""
+
+#: inc/setup/setup.php:888 inc/setup/setup.php:900 inc/setup/setup.php:910
+msgid "Pending."
+msgstr ""
+
+#: inc/setup/setup.php:889
+msgid "Installing."
+msgstr ""
+
+#: inc/setup/setup.php:890 inc/setup/setup.php:902 inc/setup/setup.php:912
+msgid "Success."
+msgstr ""
+
+#: inc/setup/setup.php:898
+msgid "Widgets"
+msgstr ""
+
+#: inc/setup/setup.php:899
+msgid "Insert default sidebar widgets as seen in the demo."
+msgstr ""
+
+#: inc/setup/setup.php:901
+msgid "Installing Default Widgets."
+msgstr ""
+
+#: inc/setup/setup.php:908
+msgid "Settings"
+msgstr ""
+
+#: inc/setup/setup.php:909
+msgid "Configure default settings."
+msgstr ""
+
+#: inc/setup/setup.php:911
+msgid "Installing Default Settings."
+msgstr ""
+
+#: inc/setup/setup.php:928 inc/setup/setup.php:972
+msgid "Install Demo Content"
+msgstr ""
+
+#: inc/setup/setup.php:931 inc/setup/setup.php:975
+msgid "It looks like you already have content installed on this website. If you would like to install the default demo content as well you can select it below. Otherwise just choose the upgrade option to ensure everything is up to date."
+msgstr ""
+
+#: inc/setup/setup.php:939 inc/setup/setup.php:983
+msgid "Item"
+msgstr ""
+
+#: inc/setup/setup.php:940 inc/setup/setup.php:984
+msgid "Description"
+msgstr ""
+
+#: inc/setup/setup.php:941 inc/setup/setup.php:985
+msgid "Status"
+msgstr ""
+
+#: inc/setup/setup.php:1015
+msgid "No content Found"
+msgstr ""
+
+#: inc/setup/setup.php:1062
+msgid "Error"
+msgstr ""
+
+#: inc/setup/setup.php:1805
+msgid "Logo &amp; Design"
+msgstr ""
+
+#: inc/setup/setup.php:1806
+msgid "Upload Logo"
+msgstr ""
+
+#: inc/setup/setup.php:1827
+msgid "Upload New Logo"
+msgstr ""
+
+#: inc/setup/setup.php:1840
+msgid "Select Preset"
+msgstr ""
+
+#: inc/setup/setup.php:2038 inc/setup/setup.php:2119
+msgid "Your <strong>purchase code is valid</strong>. Thank you! Enjoy this theme and its features."
+msgstr ""
+
+#: inc/setup/setup.php:2047
+msgid "<p>Important! We encourage you to avoid cheap hosting solutions as performance is one of the key aspects that will affect your end user experience, rankings and thus profits. Cheap means not only slow but limited. Amazon, DigitalOcean, Azure, Linode, ralocoCloud are good places to start your awesome website.</p>"
+msgstr ""
+
+#: inc/setup/setup.php:2090
+msgid "Activate Theme"
+msgstr ""
+
+#: inc/setup/setup.php:2128
+msgid "<p>Find out how to <a href=\"https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-\" target=\"_blank\">get your purchase code</a> here.</p>"
+msgstr ""
+
+#: inc/setup/setup.php:2199
+msgid "Create and Use Child Theme"
+msgstr ""
+
+#: inc/setup/setup.php:2235
+msgid "Agree and Continue"
+msgstr ""
+
+#: inc/setup/setup.php:2251
+msgid "Your Website is Ready!"
+msgstr ""
+
+#: inc/setup/setup.php:2258
+msgid "Next Steps"
+msgstr ""
+
+#: inc/setup/setup.php:2260
+msgid "Install Demo Data"
+msgstr ""
+
+#: inc/setup/setup.php:2261
+msgid "Setup WooCommerce (optional)"
+msgstr ""
+
+#: inc/setup/setup.php:2262
+msgid "View your new website!"
+msgstr ""
+
+#: inc/setup/setup.php:2266
+msgid "More Resources"
+msgstr ""
+
+#: inc/setup/setup.php:2268
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/setup/setup.php:2269
+msgid "Learn how to use WooCommerce"
+msgstr ""
+
+#: inc/setup/setup.php:2270
+msgid "Learn how to use WordPress"
+msgstr ""
+
+#: inc/setup/setup.php:2271
+msgid "Leave an Item Rating"
+msgstr ""

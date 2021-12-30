@@ -1,0 +1,453 @@
+#: custom-shipping-methods-for-woocommerce.php:151
+msgid "Settings"
+msgstr ""
+
+#: custom-shipping-methods-for-woocommerce.php:154
+msgid "Unlock All"
+msgstr ""
+
+#: includes/class-wc-shipping-alg-custom.php:30
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:73
+#: includes/settings/settings-custom-shipping.php:48
+msgid "Custom shipping"
+msgstr ""
+
+#: includes/class-wc-shipping-alg-custom.php:31
+msgid "Custom shipping method."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:43
+msgid "Custom Shipping Methods Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:48
+#: includes/settings/class-alg-wc-settings-custom-shipping-methods.php:24
+msgid "Custom Shipping Methods"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:49
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:50
+msgid "Add custom shipping methods to WooCommerce."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:63
+msgid "Admin Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:66
+#, php-format
+msgid "Visit %s to set each method's options."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:68
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:128
+msgid "WooCommerce > Settings > Shipping"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:71
+msgid "Admin title"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:85
+msgid "Frontend Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:90
+msgid "Trigger checkout update"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:91
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:99
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:92
+msgid ""
+"Will trigger the checkout update on any input change. This is useful if you "
+"are using cost calculation by distance to the customer."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:98
+msgid "Add to zero cost"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:100
+msgid ""
+"Will add text to custom shipping cost on frontend in case if it's zero (i.e. "
+"free)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:106
+msgid "Text to add to zero cost."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:107
+msgid "Ignored if \"Add to zero cost\" option above is disabled."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:108
+#, php-format
+msgid "E.g.: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:123
+msgid "Icons & Descriptions Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:126
+#, php-format
+msgid "Visit %s to set each method's icon and description."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:131
+msgid "Icons & Descriptions"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:132
+msgid "Enable section"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:133
+#, php-format
+msgid "You will need %s plugin to set icons and descriptions."
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:135
+msgid "Custom Shipping Methods for WooCommerce Pro"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:142
+msgid "Icon template"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:150
+msgid "Description template"
+msgstr ""
+
+#: includes/settings/class-alg-wc-custom-shipping-methods-settings-general.php:158
+msgid "Final template"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-shipping-methods.php:49
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-shipping-methods.php:54
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-shipping-methods.php:55
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-custom-shipping-methods.php:94
+msgid "Your settings have been reset."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:14
+#: includes/settings/settings-custom-shipping.php:96
+#: includes/settings/settings-custom-shipping.php:106
+#: includes/settings/settings-custom-shipping.php:118
+msgid "Ignored if set to zero."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:20
+msgid "number of items"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:21
+msgid "total cost of items"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:22
+msgid "total weight of items"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:23
+msgid "total volume of items"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:24
+msgid "percentage based fees"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:25
+msgid "costs table"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:26
+#: includes/settings/settings-custom-shipping.php:31
+#, php-format
+msgid "check examples %s"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:28
+#: includes/settings/settings-custom-shipping.php:33
+msgid "here"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:30
+msgid "distance"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:45
+msgid "Method title"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:47
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:56
+msgid "Method icon (optional)"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:58
+msgid "Frontend icon (URL)."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:64
+msgid "Method description (optional)"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:66
+msgid "Frontend description."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:75
+msgid "Tax status"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:80
+msgid "Taxable"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:81
+msgctxt "Tax status"
+msgid "None"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:86
+msgid "Cost"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:91
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:95
+msgid "Min cost limit"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:105
+msgid "Max cost limit"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:115
+msgid "Free shipping min amount"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:116
+msgid "Free shipping minimum order amount."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:117
+msgid "Calculated per package / shipping class."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:127
+msgid "Availability"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:130
+msgid "Method availability."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:133
+msgid "Min cart cost"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:135
+msgid "Minimum total cart cost."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:142
+msgid "Max cart cost"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:144
+msgid "Maximum total cart cost."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:151
+msgid "Min cart weight"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:153
+msgid "Minimum total cart weight."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:160
+msgid "Max cart weight"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:162
+msgid "Maximum total cart weight."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:169
+msgid "Min cart volume"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:171
+msgid "Minimum total cart volume."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:178
+msgid "Max cart volume"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:180
+msgid "Maximum total cart volume."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:187
+msgid "Min cart quantity"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:189
+msgid "Minimum total cart quantity."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:196
+msgid "Max cart quantity"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:198
+msgid "Maximum total cart quantity."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:205
+msgid "Min distance"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:207
+msgid "Minimum distance."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:208
+#: includes/settings/settings-custom-shipping.php:218
+msgid "\"Distance calculation\" option must be filled in."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:215
+msgid "Max distance"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:217
+msgid "Maximum distance."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:225
+msgid "Distance calculation"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:227
+msgid "Used for \"Min distance\" and \"Max distance\" options."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:228
+#, php-format
+msgid "You should use %s shortcode here."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:239
+msgid "Shipping class costs"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:242
+#, php-format
+msgid ""
+"These costs can optionally be added based on the <a href=\"%s\">product "
+"shipping class</a>."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:251
+#, php-format
+msgid "\"%s\" shipping class cost"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:253
+#: includes/settings/settings-custom-shipping.php:263
+msgid "N/A"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:254
+#: includes/settings/settings-custom-shipping.php:264
+msgid "See \"Cost\" option description above for available options."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:261
+msgid "No shipping class cost"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:270
+msgid "Calculation type"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:275
+msgid "Per class: Charge shipping for each shipping class individually"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:276
+msgid "Per order: Charge shipping for the most expensive shipping class"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:281
+msgid "Limits calculation"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:282
+msgid "For \"Min cost limit\" and \"Max cost limit\" options."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:287
+msgid "Per class: Check limits for each shipping class individually"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:288
+msgid "Per order: Check limits for final cost only"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:289
+msgid ""
+"All: Check limits for each shipping class individually and then for final "
+"cost"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:297
+msgid "Advanced"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:300
+msgid "Advanced settings."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:303
+msgid "Custom return URL"
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:305
+msgid "Will be used instead of the standard \"Order received\" page."
+msgstr ""
+
+#: includes/settings/settings-custom-shipping.php:306
+msgid "Ignored if empty."
+msgstr ""

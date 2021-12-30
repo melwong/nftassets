@@ -1,0 +1,55 @@
+/*
+ Theme Name: MyTicket Child Theme
+ Theme URI: http://myticket.kenzap.com
+ Author: Kenzap
+ Author URI: http://kenzap.com
+ Description: MyTicket - Healthy Food Delivery WordPress Theme
+ Version: 1.0.0
+
+ Template: myticket
+ */
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+
+@import url( ../myticket/style.css );
+
+/*Used in C:\xampp\htdocs\boothstand\wp-content\themes\myticket\woocommerce\content-single-product-get-tickets.php */
+#paper-wallet-form {
+	display: none;
+}
+
+/*Used in C:\xampp\htdocs\boothstand\wp-content\themes\myticket\woocommerce\content-single-product-get-paperwallet.php */
+.error {
+	color: red;
+}
+
+.form-spacing {
+	line-height: 3;
+}
+
+.section-page-content {
+    /*Mel: 27/06/19 */
+	padding:10px 0;
+	/*padding:70px 0;*/ 
+    background:#fff
+}
+
+/*Mel: 04/07/19. To create a background cover that appears when Javascript alert box appears*/
+.overlay {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 999; /* adjust the z-index as you need it */
+     background-color: #A9A9A9;
+     display: none;
+}
+
+/*Mel: 04/07/19. To ensure the text on the product page tabs do not get cutoff on the left and right edge of the browser which happens */
+.row {
+	margin-right: 15px !important;
+    margin-left: 15px !important;
+}

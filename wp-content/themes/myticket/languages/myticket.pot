@@ -1,0 +1,2263 @@
+# Copyright (C) 2018 Kenzap
+# This file is distributed under the same license as the MyTicket package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MyTicket 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/myticket\n"
+"POT-Creation-Date: 2018-03-16 06:47:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: category.php:18
+msgid "Search Results for category: %s"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:50
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:38 comments.php:53
+msgid "← Older Comments"
+msgstr ""
+
+#: comments.php:39 comments.php:54
+msgid "Newer Comments →"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:78
+msgid "Name"
+msgstr ""
+
+#: comments.php:84 inc/customizer.php:641
+msgid "Email"
+msgstr ""
+
+#: comments.php:89
+msgid "Website"
+msgstr ""
+
+#: comments.php:96
+msgid "Comment"
+msgstr ""
+
+#: comments.php:98
+msgid "Write Comment"
+msgstr ""
+
+#: footer.php:63
+msgid "Create website"
+msgstr ""
+
+#: functions.php:104
+msgid "Primary"
+msgstr ""
+
+#: header.php:155
+msgid "Sign In"
+msgstr ""
+
+#: header.php:155
+msgid "Sign in"
+msgstr ""
+
+#: header.php:164
+msgid "Sign up"
+msgstr ""
+
+#: header.php:175
+msgid "Sign out"
+msgstr ""
+
+#: header.php:220
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Description"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Footer Note"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Footer Social Note"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Widget sidebar location"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Social Networks"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Enable/disable social share in blog"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Youtube"
+msgstr ""
+
+#: inc/customizer.php:116
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Google"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Tumblr"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Vimeo"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Vkontakte"
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Disqus"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Kenzap"
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Override default theme fonts using Google library."
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Fonts demo"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Heading font family"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Menu font family"
+msgstr ""
+
+#: inc/customizer.php:258
+msgid "Body font family"
+msgstr ""
+
+#: inc/customizer.php:268
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Show comments on pages?"
+msgstr ""
+
+#: inc/customizer.php:294
+msgid "Enable Cart"
+msgstr ""
+
+#: inc/customizer.php:307
+msgid "Sticky header"
+msgstr ""
+
+#: inc/customizer.php:320
+msgid "Top header"
+msgstr ""
+
+#: inc/customizer.php:333
+msgid "Sign in container"
+msgstr ""
+
+#: inc/customizer.php:346
+msgid "Login Link"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Register Link"
+msgstr ""
+
+#: inc/customizer.php:370
+msgid "Custom HTML code (left)"
+msgstr ""
+
+#: inc/customizer.php:373
+msgid "Override left top header contacts container with custom HTML code"
+msgstr ""
+
+#: inc/customizer.php:383
+msgid "Custom HTML code (right)"
+msgstr ""
+
+#: inc/customizer.php:386
+msgid "Override right top header sign in container with custom HTML code"
+msgstr ""
+
+#: inc/customizer.php:392
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:403
+msgid "Logo Desktop"
+msgstr ""
+
+#: inc/customizer.php:429
+msgid "Logo Mobile"
+msgstr ""
+
+#: inc/customizer.php:453
+msgid "Logo Footer"
+msgstr ""
+
+#: inc/customizer.php:480
+msgid "Theme Main Color"
+msgstr ""
+
+#: inc/customizer.php:494
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:495
+msgid "Add custom CSS here"
+msgstr ""
+
+#: inc/customizer.php:505
+msgid "MyTicket"
+msgstr ""
+
+#: inc/customizer.php:515
+msgid "Mobile App"
+msgstr ""
+
+#: inc/customizer.php:516
+msgid "Set up rules for MyTicket scanner app"
+msgstr ""
+
+#: inc/customizer.php:527
+msgid "Private access"
+msgstr ""
+
+#: inc/customizer.php:540
+msgid "Allowed app IDs"
+msgstr ""
+
+#: inc/customizer.php:549
+msgid "E-commerce"
+msgstr ""
+
+#: inc/customizer.php:550
+msgid "E-commerce, banner, units, products master settings."
+msgstr ""
+
+#: inc/customizer.php:559
+msgid "Products"
+msgstr ""
+
+#: inc/customizer.php:560
+msgid "Configure product visual and styling settings."
+msgstr ""
+
+#: inc/customizer.php:568
+msgid "Support"
+msgstr ""
+
+#: inc/customizer.php:569
+msgid "Cart, checkout banner and support page settings."
+msgstr ""
+
+#: inc/customizer.php:579
+msgid "Number of products"
+msgstr ""
+
+#: inc/customizer.php:592
+msgid "Thank You Page"
+msgstr ""
+
+#: inc/customizer.php:602
+msgid "Contacts"
+msgstr ""
+
+#: inc/customizer.php:604
+msgid "Set up contact details."
+msgstr ""
+
+#: inc/customizer.php:615
+msgid "Phone Number 1"
+msgstr ""
+
+#: inc/customizer.php:628
+msgid "Phone Number 2"
+msgstr ""
+
+#: inc/customizer.php:654
+msgid "Address"
+msgstr ""
+
+#: inc/customizer.php:655
+msgid "Your address may not appear on website but it will be used by search engines. Make sure it can be found in Google Maps"
+msgstr ""
+
+#: inc/customizer.php:663
+msgid "Advanced"
+msgstr ""
+
+#: inc/customizer.php:675
+msgid "Minify JS and CSS"
+msgstr ""
+
+#: inc/customizer.php:690
+msgid "Google Maps API Key"
+msgstr ""
+
+#: inc/extras.php:44
+msgid "year"
+msgstr ""
+
+#: inc/extras.php:45
+msgid "month"
+msgstr ""
+
+#: inc/extras.php:46
+msgid "week"
+msgstr ""
+
+#: inc/extras.php:47
+msgid "day"
+msgstr ""
+
+#: inc/extras.php:48
+msgid "hour"
+msgstr ""
+
+#: inc/extras.php:49
+msgid "minute"
+msgstr ""
+
+#: inc/extras.php:50
+msgid "second"
+msgstr ""
+
+#: inc/setup-woocommerce.php:46
+msgid "time"
+msgstr ""
+
+#: inc/setup-woocommerce.php:51
+msgid "venue"
+msgstr ""
+
+#: inc/setup-woocommerce.php:56
+msgid "address"
+msgstr ""
+
+#: inc/setup-woocommerce.php:72
+msgid "Validated <span class=\"count\">(%s)</span>"
+msgid_plural "Validated <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/setup.php:57
+msgid "Main Menu"
+msgstr ""
+
+#: inc/setup.php:58
+msgid "Main Menu - Mobile"
+msgstr ""
+
+#: inc/setup.php:59
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/setup.php:60
+msgid "Footer Menu Right"
+msgstr ""
+
+#: inc/setup.php:75
+msgid "Sidebar"
+msgstr ""
+
+#: inc/setup.php:77
+msgid "Blog extension sidebar for core functionality"
+msgstr ""
+
+#: inc/setup.php:90
+msgctxt "Open Sans: on or off"
+msgid "off"
+msgstr ""
+
+#: inc/setup.php:91
+msgctxt "Elsie font: on or off"
+msgid "off"
+msgstr ""
+
+#: inc/setup.php:92
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/setup.php:185
+msgid "expand child menu"
+msgstr ""
+
+#: inc/setup.php:186
+msgid "Prev"
+msgstr ""
+
+#: inc/setup.php:187 inc/template-tags.php:94 inc/template-tags.php:125
+#: inc/template-tags.php:156
+msgid "Next"
+msgstr ""
+
+#: inc/setup.php:188
+msgid "collapse child menu"
+msgstr ""
+
+#: inc/setup.php:190
+msgid "No records found"
+msgstr ""
+
+#: inc/setup.php:191
+msgid "Load more"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:24
+msgid "MyTicket About us"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:29
+msgid "Create About Us Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:42
+msgid "About us title"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:47
+msgid "About us text"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:52
+msgid "About us text right"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:57
+msgid "About us text left"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:62
+msgid "Choose first image"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:63
+#: inc/shortcodes/myticket-aboutus.php:71
+#: inc/shortcodes/myticket-aboutus.php:79
+#: inc/shortcodes/myticket-aboutus.php:87
+#: inc/shortcodes/myticket-aboutus.php:95
+#: inc/shortcodes/myticket-banner-parallax.php:54
+#: inc/shortcodes/myticket-banner.php:71 inc/shortcodes/myticket-news.php:111
+#: inc/shortcodes/myticket-partner.php:48
+#: inc/shortcodes/myticket-partner.php:62
+#: inc/shortcodes/myticket-partner.php:76
+#: inc/shortcodes/myticket-partner.php:90
+msgid "Choose image"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:64
+#: inc/shortcodes/myticket-aboutus.php:72
+#: inc/shortcodes/myticket-aboutus.php:80
+#: inc/shortcodes/myticket-aboutus.php:88
+#: inc/shortcodes/myticket-aboutus.php:96
+#: inc/shortcodes/myticket-banner-parallax.php:55
+#: inc/shortcodes/myticket-banner.php:72 inc/shortcodes/myticket-news.php:112
+#: inc/shortcodes/myticket-partner.php:49
+#: inc/shortcodes/myticket-partner.php:63
+#: inc/shortcodes/myticket-partner.php:77
+#: inc/shortcodes/myticket-partner.php:91
+msgid "Set image"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:70
+msgid "Choose second image"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:78
+msgid "Choose third image"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:86
+msgid "Choose fourth image"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:94
+msgid "Choose fifth image"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:102
+#: inc/shortcodes/myticket-banner-parallax.php:61
+#: inc/shortcodes/myticket-banner.php:104
+msgid "Button Link"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:103
+msgid "Button url"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:108
+#: inc/shortcodes/myticket-banner.php:110
+msgid "Button Text"
+msgstr ""
+
+#: inc/shortcodes/myticket-aboutus.php:109
+msgid "Button CTA text"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner-parallax.php:25
+msgid "MyTicket Banner Parallax"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner-parallax.php:30
+msgid "Create Parallax Banner"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner-parallax.php:43
+#: inc/shortcodes/myticket-banner.php:43
+msgid "Banner Title"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner-parallax.php:48
+#: inc/shortcodes/myticket-banner.php:53
+msgid "Banner Text"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner-parallax.php:53
+#: inc/shortcodes/myticket-banner.php:70
+msgid "Choose banner image"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner-parallax.php:62
+msgid "Specify banner youtube video url here."
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:25
+msgid "MyTicket Banner"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:30
+msgid "Create Different Banners"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:48
+msgid "Banner Subtitle"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:58
+msgid "Choose banner type from selection below"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:61
+msgid "About us Banner"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:62
+msgid "Advanced Banner v1"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:63
+msgid "Advanced Banner v2"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:64
+msgid "Advanced Banner v3"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:65
+msgid "Artist Banner"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:78
+msgid "Enable/Disable gradient banner overlay"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:79 inc/shortcodes/myticket-banner.php:84
+#: inc/shortcodes/myticket-banner.php:93 inc/shortcodes/myticket-banner.php:99
+msgid "Works only with advanced banner type"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:83
+msgid "Gradient opacity"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:92
+msgid "Gradient color start"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:98
+msgid "Gradient color end"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:105
+#: inc/shortcodes/myticket-banner.php:111
+msgid "May not apply to all banner types"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:116
+msgid "Events search page"
+msgstr ""
+
+#: inc/shortcodes/myticket-banner.php:117
+msgid "May not apply to all banner types. Works as Event ID with Advanced Banner v3. Unless provided above all date like title, subtitle, location etc will be taken from products descriptions."
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:24
+msgid "MyTicket Categories Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:29
+msgid "Create Categories Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:42 inc/shortcodes/myticket-cta.php:42
+#: inc/shortcodes/myticket-events-single.php:133
+#: inc/shortcodes/myticket-events-upcomming-minified.php:48
+#: inc/shortcodes/myticket-videos.php:42
+msgid "Title"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:43
+#: inc/shortcodes/myticket-counters.php:43
+#: inc/shortcodes/myticket-counters.php:55
+#: inc/shortcodes/myticket-counters.php:67 inc/shortcodes/myticket-cta.php:43
+#: inc/shortcodes/myticket-events-upcomming-minified.php:49
+#: inc/shortcodes/myticket-videos.php:43
+msgid "Section title"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:48
+#: inc/shortcodes/myticket-events-schedule-minified.php:48
+#: inc/shortcodes/myticket-events-schedule.php:48
+#: inc/shortcodes/myticket-events-upcomming-minified.php:72
+#: inc/shortcodes/myticket-events-upcomming.php:48
+#: inc/shortcodes/myticket-events.php:63
+msgid "Max events per page"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:49
+#: inc/shortcodes/myticket-events-schedule-minified.php:49
+#: inc/shortcodes/myticket-events-schedule.php:49
+#: inc/shortcodes/myticket-events-upcomming-minified.php:73
+#: inc/shortcodes/myticket-events-upcomming.php:49
+#: inc/shortcodes/myticket-events.php:64 inc/shortcodes/myticket-videos.php:49
+msgid "Specify the maximum number of events listed per single page"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:54
+msgid "Categories"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:55
+msgid "Important! Separate categories by \",\" also category selection is case-sensitive. Ex:. Events, Sports, Parties. To specify images go to Products > Categories"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:60
+#: inc/shortcodes/myticket-events-schedule-minified.php:65
+#: inc/shortcodes/myticket-events-schedule.php:60
+#: inc/shortcodes/myticket-events-upcomming-minified.php:84
+#: inc/shortcodes/myticket-events-upcomming.php:60
+#: inc/shortcodes/myticket-events.php:86 inc/shortcodes/myticket-videos.php:60
+msgid "Choose default sorting"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:63
+#: inc/shortcodes/myticket-events-schedule-minified.php:68
+#: inc/shortcodes/myticket-events-schedule.php:63
+#: inc/shortcodes/myticket-events-upcomming-minified.php:87
+#: inc/shortcodes/myticket-events-upcomming.php:63
+#: inc/shortcodes/myticket-events.php:89 inc/shortcodes/myticket-videos.php:63
+msgid "None"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:64
+#: inc/shortcodes/myticket-events-schedule-minified.php:69
+#: inc/shortcodes/myticket-events-schedule.php:64
+#: inc/shortcodes/myticket-events-upcomming-minified.php:88
+#: inc/shortcodes/myticket-events-upcomming.php:64
+#: inc/shortcodes/myticket-events.php:90 inc/shortcodes/myticket-videos.php:64
+#: inc/shortcodes/widgets/myticket-events.php:152
+msgid "Popularity"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:65
+#: inc/shortcodes/myticket-events-schedule-minified.php:70
+#: inc/shortcodes/myticket-events-schedule.php:65
+#: inc/shortcodes/myticket-events-upcomming-minified.php:89
+#: inc/shortcodes/myticket-events-upcomming.php:65
+#: inc/shortcodes/myticket-events.php:91 inc/shortcodes/myticket-videos.php:65
+#: inc/shortcodes/widgets/myticket-events.php:153
+msgid "Rating"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:66
+#: inc/shortcodes/myticket-events-schedule-minified.php:71
+#: inc/shortcodes/myticket-events-schedule.php:66
+#: inc/shortcodes/myticket-events-upcomming-minified.php:90
+#: inc/shortcodes/myticket-events-upcomming.php:66
+#: inc/shortcodes/myticket-events.php:92 inc/shortcodes/myticket-videos.php:66
+#: inc/shortcodes/widgets/myticket-events.php:154
+msgid "Newest"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:67
+#: inc/shortcodes/myticket-events-schedule-minified.php:72
+#: inc/shortcodes/myticket-events-schedule.php:67
+#: inc/shortcodes/myticket-events-upcomming-minified.php:91
+#: inc/shortcodes/myticket-events-upcomming.php:67
+#: inc/shortcodes/myticket-events.php:93 inc/shortcodes/myticket-videos.php:67
+msgid "Lowest price"
+msgstr ""
+
+#: inc/shortcodes/myticket-categories.php:68
+#: inc/shortcodes/myticket-events-schedule-minified.php:73
+#: inc/shortcodes/myticket-events-schedule.php:68
+#: inc/shortcodes/myticket-events-upcomming-minified.php:92
+#: inc/shortcodes/myticket-events-upcomming.php:68
+#: inc/shortcodes/myticket-events.php:94 inc/shortcodes/myticket-videos.php:68
+msgid "Highest price"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:23
+msgid "MyTicket Contacts"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:28
+msgid "Display contacts block with map and form"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:41
+msgid "Contacts Title"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:46
+msgid "Subtitle left"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:51
+msgid "Subtitle right"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:56
+msgid "Some text"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:61
+msgid "Map latitude"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:62
+#: inc/shortcodes/myticket-contact.php:68
+#: inc/shortcodes/myticket-contact.php:74
+#: inc/shortcodes/myticket-contact.php:83
+#: inc/shortcodes/myticket-contact.php:93
+#: inc/shortcodes/myticket-contact.php:99
+#: inc/shortcodes/myticket-contact.php:109
+#: inc/shortcodes/myticket-events-single.php:89
+#: inc/shortcodes/myticket-events-single.php:98
+#: inc/shortcodes/myticket-events-single.php:108
+#: inc/shortcodes/myticket-events-single.php:114
+msgid "Important! You have to clear browsing cache after making changes here"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:67
+msgid "Map longitude"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:73
+#: inc/shortcodes/myticket-events-single.php:88
+msgid "Map zoom level"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:82
+#: inc/shortcodes/myticket-events-single.php:97
+msgid "Map hue/color"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:92
+#: inc/shortcodes/myticket-events-single.php:107
+msgid "Map saturation/brightness level"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:98
+#: inc/shortcodes/myticket-events-single.php:113
+msgid "Map pointer type"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:102
+#: inc/shortcodes/myticket-events-single.php:117
+msgid "Balloon"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:103
+#: inc/shortcodes/myticket-events-single.php:118
+msgid "Pointer"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:108
+msgid "Map balloon text"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:114
+msgid "Icon Row One"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:119
+msgid "Icon Row Two"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:124
+msgid "Contact form ID"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:129
+msgid "Email address"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:134
+msgid "Phone number to call"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:135
+msgid "Should be a well formatted phone number with country code."
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:140
+msgid "Phone number to display"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:145
+msgid "Address text"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:150
+msgid "Button text 1"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:155
+msgid "Button link 1"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:160
+msgid "Button text 2"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:165
+msgid "Button link 2"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:250
+msgid "tel"
+msgstr ""
+
+#: inc/shortcodes/myticket-contact.php:254
+msgid "email"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:24
+msgid "MyTicket Counters"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:29
+msgid "Create Counting Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:42
+msgid "Title 1"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:48
+msgid "Value 1"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:49
+#: inc/shortcodes/myticket-counters.php:61
+#: inc/shortcodes/myticket-counters.php:73
+msgid "Section value"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:54
+msgid "Title 2"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:60
+msgid "Value 2"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:66
+msgid "Title 3"
+msgstr ""
+
+#: inc/shortcodes/myticket-counters.php:72
+msgid "Value 3"
+msgstr ""
+
+#: inc/shortcodes/myticket-cta.php:24
+msgid "MyTicket CTA"
+msgstr ""
+
+#: inc/shortcodes/myticket-cta.php:29
+msgid "Create CTA Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-cta.php:48
+#: inc/shortcodes/myticket-events-upcomming-minified.php:54
+#: inc/shortcodes/myticket-gallery.php:63
+msgid "Text"
+msgstr ""
+
+#: inc/shortcodes/myticket-cta.php:49
+#: inc/shortcodes/myticket-events-upcomming-minified.php:55
+msgid "Section text"
+msgstr ""
+
+#: inc/shortcodes/myticket-cta.php:54
+#: inc/shortcodes/myticket-events-upcomming-minified.php:60
+msgid "CTA text"
+msgstr ""
+
+#: inc/shortcodes/myticket-cta.php:55
+msgid "CTA button text"
+msgstr ""
+
+#: inc/shortcodes/myticket-cta.php:60
+#: inc/shortcodes/myticket-events-upcomming-minified.php:66
+msgid "CTA link"
+msgstr ""
+
+#: inc/shortcodes/myticket-cta.php:61
+msgid "CTA button link"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:24
+msgid "MyTicket Schedule Minified Events"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:29
+msgid "Create Schedule Minified Events Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:42
+msgid "Title "
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:43
+msgid "Go to events > Add New section to add new events items"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:54
+#: inc/shortcodes/myticket-events-schedule.php:54
+#: inc/shortcodes/myticket-events-upcomming-minified.php:78
+#: inc/shortcodes/myticket-events-upcomming.php:54
+#: inc/shortcodes/myticket-events.php:69 inc/shortcodes/myticket-gallery.php:57
+#: inc/shortcodes/myticket-videos.php:54
+msgid "Category"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:55
+#: inc/shortcodes/myticket-events-schedule.php:55
+#: inc/shortcodes/myticket-events-upcomming-minified.php:79
+#: inc/shortcodes/myticket-events-upcomming.php:55
+msgid "Restrict events to certain category"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:60
+msgid "Full event schedule link"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:79
+#: inc/shortcodes/myticket-events-schedule.php:74
+#: inc/shortcodes/myticket-events-upcomming-minified.php:98
+#: inc/shortcodes/myticket-events-upcomming.php:74
+#: inc/shortcodes/myticket-events.php:53
+msgid "Choose event list type"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:82
+#: inc/shortcodes/myticket-events-schedule.php:77
+#: inc/shortcodes/myticket-events.php:56
+msgid "Upcoming Events"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:83
+#: inc/shortcodes/myticket-events-schedule.php:78
+#: inc/shortcodes/myticket-events-upcomming-minified.php:102
+#: inc/shortcodes/myticket-events-upcomming.php:78
+#: inc/shortcodes/myticket-events.php:57
+msgid "Past Events"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule-minified.php:84
+#: inc/shortcodes/myticket-events-schedule.php:79
+#: inc/shortcodes/myticket-events-upcomming-minified.php:103
+#: inc/shortcodes/myticket-events-upcomming.php:79
+#: inc/shortcodes/myticket-events.php:58
+msgid "All Events"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule.php:24
+msgid "MyTicket Schedule Events"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule.php:29
+msgid "Create Schedule Events Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule.php:43
+#: inc/shortcodes/myticket-events-single.php:54
+#: inc/shortcodes/myticket-events-ticketnum.php:54
+#: inc/shortcodes/myticket-events-upcomming-minified.php:43
+#: inc/shortcodes/myticket-events-upcomming.php:43
+#: inc/shortcodes/myticket-gallery.php:48
+msgid "Show header"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-schedule.php:44
+#: inc/shortcodes/myticket-events-upcomming-minified.php:44
+#: inc/shortcodes/myticket-events-upcomming.php:44
+msgid "Enable/Disable carousel section with dates (Month/Year)."
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:24
+msgid "MyTicket Single Event"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:29
+msgid "Create Single Event Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:42
+#: inc/shortcodes/myticket-events-ticketnum.php:42
+msgid "Subtitle"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:43
+#: inc/shortcodes/myticket-events-ticketnum.php:43
+msgid "Goes immidiately below banner section on the left side."
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:48
+#: inc/shortcodes/myticket-events-ticketnum.php:48
+msgid "Event ID"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:49
+#: inc/shortcodes/myticket-events-ticketnum.php:49
+msgid "Go to Products section from your admin menu. From the products list view hover on the desired record. ID number will show up. Copy it here."
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:55
+#: inc/shortcodes/myticket-events-ticketnum.php:55
+msgid "Enable/Disable banner section of your event."
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:59
+msgid "Show about"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:60
+msgid "Enable/Disable about section of your event."
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:64
+msgid "Show highlights"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:65
+msgid "Enable/Disable highlights section of your event."
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:69
+msgid "Specify highlights here"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:83
+msgid "Show map"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:84
+msgid "Enable/Disable map section of your event. Coordinates can be entered when editing products under Products section from your admin menu."
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:123
+msgid "Add event features"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:124
+msgid "Click here to setup feature record"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:138
+#: inc/shortcodes/myticket-gallery.php:69
+msgid "Icon"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:139
+msgid "Please provide icon shortcode. Ex.: fa fa-mobile fa-3x. Full catalog can be found here: http://fontawesome.io/icons/"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-single.php:144
+msgid "Temporary hide this record"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-ticketnum.php:24
+msgid "MyTicket Select Ticket Without Seats"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-ticketnum.php:29
+msgid "Create Select Ticket Without Seats Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-upcomming-minified.php:24
+msgid "MyTicket Upcomming Minified Events"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-upcomming-minified.php:29
+msgid "Create Upcomming Minified Events Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-upcomming-minified.php:61
+msgid "Provide call to action button text"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-upcomming-minified.php:67
+msgid "Provide call to action button link"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-upcomming-minified.php:101
+#: inc/shortcodes/myticket-events-upcomming.php:77
+msgid "Upcomming Events"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-upcomming.php:24
+msgid "MyTicket Upcomming Events"
+msgstr ""
+
+#: inc/shortcodes/myticket-events-upcomming.php:29
+msgid "Create Upcomming Events Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:24
+msgid "MyTicket Events List"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:29
+msgid "Create Events List Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:42
+msgid "Show filter"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:43
+msgid "Enable/Disable extra fields for events sorting and search"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:47
+msgid "Filter locations"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:48
+msgid "Override default location list. Separate locations by \",\". Ex.: Arena Berlin, Belgrade Stadium.. If empty all locations are queried. To specify event location go to Products > Edit product > Event Title"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:70
+msgid "Restrict events to certain category. Categories are case-sensitive. Ex.: Sports, Events, Concerts.."
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:75
+msgid "Query relation"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:76
+msgid "This rule tells database how to filter results. If user selects two categories Golf and Swimming AND will show only those events that are in Golf and Swimming simultaneously. If user selects Golf and Swimming categories OR will picks up all events within Golf category and unites them with all events from Swimming category. The more checkboxes user ticks with OR relation the more results will be shown and vice versa if AND is selected."
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:79
+msgid "AND"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:80
+msgid "OR"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:100
+#: inc/shortcodes/myticket-gallery.php:81
+msgid "Background color"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:105
+#: inc/shortcodes/myticket-gallery.php:86
+msgid "Enable/disable pagination"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:109
+msgid "Sidebar Location"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:110
+msgid "Select sidebar location. You can change siderbar position from left to right under in Customizer > Advanced > Widget sidebar location"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:113
+msgid "Sidebar None"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:114
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:115
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:120
+msgid "Sidebar Source"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:121
+msgid "Select which sidebar to use. You can add/remove/change widgets for the selected sidebar under Appearence > Widgets section"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:124
+msgid "MyTicket Sidebar #1"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:125
+msgid "MyTicket Sidebar #2"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:126
+msgid "MyTicket Sidebar #3"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:131
+msgid "Sidebar Size"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:132
+msgid "Try to minimalize the width of all sidebar widgets and maximize place for website contents or vise versa"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:135
+msgid "Sidebar Minimize"
+msgstr ""
+
+#: inc/shortcodes/myticket-events.php:136
+msgid "Sidebar Maximize"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:24
+msgid "MyTicket Gallery"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:29
+msgid "Create Gallery Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:42
+msgid "Gallery title "
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:43
+msgid "Go to Gallery > Add New section to add new gallery items"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:52
+msgid "Max images per page"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:58
+msgid "Restrict gallery to certain category"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:75
+msgid "Class"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:90
+msgid "Choose gallery type"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:93
+#: inc/shortcodes/myticket-headline.php:51
+msgid "Normal"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:94
+msgid "Carousel"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:95
+msgid "Minified"
+msgstr ""
+
+#: inc/shortcodes/myticket-gallery.php:96
+msgid "Menu"
+msgstr ""
+
+#: inc/shortcodes/myticket-headline.php:24
+msgid "MyTicket Headline"
+msgstr ""
+
+#: inc/shortcodes/myticket-headline.php:29
+msgid "Create Headline Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-headline.php:42
+msgid "Headline Title "
+msgstr ""
+
+#: inc/shortcodes/myticket-headline.php:48
+msgid "Choose headline type"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:25
+msgid "MyTicket News"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:30
+msgid "Create News Signup Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:43
+msgid "News title"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:48
+msgid "News title right"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:53
+msgid "News category"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:58
+msgid "Max news records"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:64
+msgid "Enable/Disable Tweets"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:65
+msgid "Works only if Twitter settings below are provided."
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:69
+msgid "Twitter title"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:74
+msgid "Twitter Consumer Key:"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:80
+msgid "Twitter Consumer Secret:"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:86
+msgid "Twitter Access Token:"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:92
+msgid "Twitter Access Token Secret:"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:98
+msgid "Twitter Username:"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:104
+msgid "Twitter max tweets:"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:105
+msgid "Maximum number of tweets to query"
+msgstr ""
+
+#: inc/shortcodes/myticket-news.php:110
+msgid "Choose logo"
+msgstr ""
+
+#: inc/shortcodes/myticket-newsletter.php:25
+msgid "MyTicket Newsletter"
+msgstr ""
+
+#: inc/shortcodes/myticket-newsletter.php:30
+msgid "Create Newsletter Signup Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-newsletter.php:43
+msgid "Newsletter title"
+msgstr ""
+
+#: inc/shortcodes/myticket-newsletter.php:48
+msgid "Newsletter subtitle"
+msgstr ""
+
+#: inc/shortcodes/myticket-newsletter.php:53
+msgid "Newsletter text"
+msgstr ""
+
+#: inc/shortcodes/myticket-newsletter.php:58
+msgid "Button text"
+msgstr ""
+
+#: inc/shortcodes/myticket-newsletter.php:64
+msgid "Form ID"
+msgstr ""
+
+#: inc/shortcodes/myticket-newsletter.php:65
+msgid "Go to Mailchimp for WP > Forms to find your form id"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:24
+msgid "MyTicket Partner"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:29
+msgid "Create Partner Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:42
+msgid "Partner 1 link"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:47
+msgid "Choose 1 image"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:56
+msgid "Partner 2 link"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:61
+msgid "Choose 2 image"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:70
+msgid "Partner 3 link"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:75
+msgid "Choose 3 image"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:84
+msgid "Partner 4 link"
+msgstr ""
+
+#: inc/shortcodes/myticket-partner.php:89
+msgid "Choose 4 image"
+msgstr ""
+
+#: inc/shortcodes/myticket-videos.php:24
+msgid "MyTicket Videos"
+msgstr ""
+
+#: inc/shortcodes/myticket-videos.php:29
+msgid "Create Videos Section"
+msgstr ""
+
+#: inc/shortcodes/myticket-videos.php:48
+msgid "Videos per page"
+msgstr ""
+
+#: inc/shortcodes/myticket-videos.php:55
+msgid "Important! Category is case-sensitive. Ex:. Events, Sports, Videos."
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-banner.php:38
+msgid "Search Artist, Team, or Venue"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-banner.php:42
+msgid "San Francisco"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-banner.php:42
+msgid "Change Location"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-banner.php:178
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:26
+msgid "unlimited tickets"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-banner.php:180
+msgid " tickets left!"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-banner.php:183
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:31
+#: template-parts/ajax-myticket-schedule.php:95
+msgid "No Tickets Left"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:8
+#: inc/shortcodes/widgets/myticket-events-schedule.php:8
+#: inc/shortcodes/widgets/myticket-events.php:9
+msgid "Search Keyword"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:9
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:59
+#: inc/shortcodes/widgets/myticket-events-schedule.php:9
+#: inc/shortcodes/widgets/myticket-events-schedule.php:59
+#: inc/shortcodes/widgets/myticket-events.php:10
+#: inc/shortcodes/widgets/myticket-events.php:106
+msgid "Search"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:24
+#: inc/shortcodes/widgets/myticket-events-schedule.php:24
+#: inc/shortcodes/widgets/myticket-events-single.php:168
+#: inc/shortcodes/widgets/myticket-events.php:22
+#: inc/shortcodes/widgets/myticket-events.php:41
+msgid "Location"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:26
+#: inc/shortcodes/widgets/myticket-events-schedule.php:26
+#: inc/shortcodes/widgets/myticket-events.php:24
+#: inc/shortcodes/widgets/myticket-events.php:43
+msgid "All Locations"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:43
+#: inc/shortcodes/widgets/myticket-events-schedule.php:42
+#: inc/shortcodes/widgets/myticket-events.php:60
+msgid "Event Month"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:45
+#: inc/shortcodes/widgets/myticket-events-schedule.php:44
+#: inc/shortcodes/widgets/myticket-events.php:62
+msgid "All Dates"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:133
+#: inc/shortcodes/widgets/myticket-events-upcomming-minified.php:92
+#: inc/shortcodes/widgets/myticket-events-upcomming.php:118
+msgid "Get Ticket"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:134
+#: inc/shortcodes/widgets/myticket-events-single.php:54
+#: inc/shortcodes/widgets/myticket-events-upcomming-minified.php:93
+#: inc/shortcodes/widgets/myticket-events-upcomming.php:119
+#: template-parts/ajax-myticket-list.php:42
+#: template-parts/ajax-myticket-schedule.php:133
+msgid "Sold Out"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:135
+#: inc/shortcodes/widgets/myticket-events-single.php:55
+#: inc/shortcodes/widgets/myticket-events-upcomming-minified.php:94
+#: inc/shortcodes/widgets/myticket-events-upcomming.php:120
+#: template-parts/ajax-myticket-list.php:43
+#: template-parts/ajax-myticket-schedule.php:134
+msgid "View More"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:163
+msgid "Full Event"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-schedule-minified.php:163
+msgid "Schedules"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-single.php:46
+msgid "Ticket from"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-single.php:53
+msgid "Purchase Ticket"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-single.php:149
+msgid "About This Event"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:28
+msgid " tickets left"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:67
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:68
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:69
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:70
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:77
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:78
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:79
+#: inc/shortcodes/widgets/myticket-events-ticketnum.php:80
+msgid " ticket"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:144
+msgid "Showing all records"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:144
+msgid "Search results for"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:145
+msgid "Showing"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:145
+msgid "of"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:145
+msgid "Results"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:148
+msgid "Sort By:"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:150
+msgid "Default"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:151
+msgid "Alphabetically"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:155
+msgid "Lowest Price"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-events.php:156
+msgid "Highest Price"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-gallery.php:34
+msgid "VIEW"
+msgstr ""
+
+#: inc/shortcodes/widgets/myticket-news.php:54
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:30
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+
+#: inc/template-tags.php:47 inc/template-tags.php:53
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:49
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+
+#: inc/template-tags.php:62
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+
+#: inc/template-tags.php:69 template-parts/content-page.php:30
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:85 inc/template-tags.php:116 inc/template-tags.php:147
+#: inc/template-tags.php:178 inc/template-tags.php:208
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:93 inc/template-tags.php:124 inc/template-tags.php:155
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:257
+msgid "Previous Story"
+msgstr ""
+
+#: inc/template-tags.php:262
+msgid "Next Story"
+msgstr ""
+
+#: inc/template-tags.php:287
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:287 inc/template-tags.php:312
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:302
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:309
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:343
+msgid "SHARE THIS STORY"
+msgstr ""
+
+#: inc/template-tags.php:345
+msgid "Share on Facebook"
+msgstr ""
+
+#: inc/template-tags.php:346
+msgid "Share on Twitter"
+msgstr ""
+
+#: inc/template-tags.php:347
+msgid "Share on Google+"
+msgstr ""
+
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:3
+msgid "New search"
+msgstr ""
+
+#: tag.php:18
+msgid "Search Results for tag: %s"
+msgstr ""
+
+#: template-parts/ajax-myticket-list.php:13
+msgid "Sale"
+msgstr ""
+
+#: template-parts/ajax-myticket-list.php:19
+msgid "Venue"
+msgstr ""
+
+#: template-parts/ajax-myticket-list.php:27
+msgid "Time"
+msgstr ""
+
+#: template-parts/ajax-myticket-list.php:33
+msgid "Price From"
+msgstr ""
+
+#: template-parts/ajax-myticket-list.php:41
+#: template-parts/ajax-myticket-schedule.php:132
+msgid "Book Ticket"
+msgstr ""
+
+#: template-parts/ajax-myticket-schedule.php:90
+msgid "Unlimited Tickets"
+msgstr ""
+
+#: template-parts/ajax-myticket-schedule.php:92
+msgid " Tickets Left"
+msgstr ""
+
+#: template-parts/ajax-products.php:99
+msgid "INGREDIENTS"
+msgstr ""
+
+#: template-parts/ajax-products.php:110
+msgid "NUTRITION FACTS"
+msgstr ""
+
+#: template-parts/ajax-products.php:116 woocommerce/cart/cart-totals.php:58
+msgid "Calories"
+msgstr ""
+
+#: template-parts/ajax-products.php:122 woocommerce/cart/cart-totals.php:62
+msgid "Proteins"
+msgstr ""
+
+#: template-parts/ajax-products.php:128 woocommerce/cart/cart-totals.php:66
+msgid "Fats"
+msgstr ""
+
+#: template-parts/ajax-products.php:134 woocommerce/cart/cart-totals.php:70
+msgid "Carbohydrates"
+msgstr ""
+
+#: template-parts/ajax-products.php:146
+msgid "ADD TO CART"
+msgstr ""
+
+#: template-parts/ajax-products.php:333
+msgid "Already in wishlist"
+msgstr ""
+
+#: template-parts/ajax-products.php:337
+msgid "Add to wishlist"
+msgstr ""
+
+#. translators: %s: Name of current post.
+
+#: template-parts/content-blog-fullwidth.php:39
+#: template-parts/content-blog-index.php:42 template-parts/content-blog.php:64
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-blog-fullwidth.php:44
+#: template-parts/content-blog-index.php:50 template-parts/content-blog.php:72
+#: template-parts/content-page.php:19
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-blog-index.php:30 template-parts/content-blog.php:36
+msgid "no comments"
+msgstr ""
+
+#: template-parts/content-blog-index.php:30 template-parts/content-blog.php:36
+msgid "one comment"
+msgstr ""
+
+#: template-parts/content-blog-index.php:30 template-parts/content-blog.php:36
+msgid "comments"
+msgstr ""
+
+#: template-parts/content-blog.php:43 template-parts/content-blog.php:51
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: template-parts/content-blog.php:46
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: template-parts/content-blog.php:54
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21 template-parts/content-refresh.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25 template-parts/content-refresh.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31 template-parts/content-refresh.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-refresh.php:14
+msgid "Theme settings are refreshed"
+msgstr ""
+
+#: template-parts/content-search.php:18 template-parts/content-tag.php:18
+msgid "By:"
+msgstr ""
+
+#: template-parts/content-search.php:20 template-parts/content-tag.php:20
+msgid "Category:"
+msgstr ""
+
+#: template-parts/content-search.php:22 template-parts/content-tag.php:22
+msgid "Comments"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:33
+msgid "CART"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:34
+msgid "Nothing to show! Your "
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:34
+msgid " cart is currently empty"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:35
+msgid "Back to homepage"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:49
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:53
+msgid "Nutrition Facts Calculated"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:89
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:94 woocommerce/cart/cart-totals.php:95
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:116 woocommerce/cart/cart-totals.php:117
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:132
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:153 woocommerce/cart/cart-totals.php:154
+#: woocommerce/cart/cart.php:52 woocommerce/cart/cart.php:151
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:49
+msgid "Event Name"
+msgstr ""
+
+#: woocommerce/cart/cart.php:50 woocommerce/cart/cart.php:128
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:72
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:51
+msgid "Tickets"
+msgstr ""
+
+#: woocommerce/cart/cart.php:69
+msgid "Action"
+msgstr ""
+
+#: woocommerce/cart/cart.php:74
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:93
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:62
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:122
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:169
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:169
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:169
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:175
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:39
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:65
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:43
+msgid "Download Your Ticket"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Thanks for purchasing"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "ticket"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "You can directly download ticket by clicking"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Download"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "button below"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:78
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:81
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:83
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:89 woocommerce/checkout/thankyou.php:126
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:94
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:99
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:104
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:111
+msgid "Payment method:"
+msgstr ""
+
+#. translators: 1: order number 2: order date 3: order status
+
+#: woocommerce/myaccount/view-order.php:29
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:37
+msgid "Order updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:43
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:53
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:66
+msgid "Qty"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:152
+msgid "Zero rated for VAT as customer has supplied EU VAT number"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/footer.php:26
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/header.php:47
+msgid "Invoice #: %s"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/header.php:49
+msgid "Invoice Date: %s"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/header.php:51
+msgid "Order Date: %s"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/header.php:53
+msgid "Order Number: %s"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/header.php:57
+msgid "Payment Method: %s"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/header.php:64
+msgid "Purchase Order Number: %s"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/header.php:73
+msgid "VAT Number: %s"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "MyTicket"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://myticket.kenzap.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "MyTicket - Event, Ticket Management System WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kenzap"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://kenzap.com"
+msgstr ""
+
+#Mel: 20/08/19. Added when upgraded to latest 1.0.7 theme.
+#Mel. Start
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:68
+msgid "WALLET ADDRESS"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:73
+msgid "PRIVATE KEY"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:86
+msgid "This is Your Virtual Ticket. Protect It"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:87
+msgid "This virtual ticket consists of a token stored inside a digital wallet in a secured blockchain."
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:99
+msgid "Wallet Address: %s"
+msgstr ""
+
+#: woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:104
+msgid "Private Key: %s"
+msgstr ""
+
+#: functions.php:44
+msgid "No Ticket File Available"
+msgstr ""
+
+#: content-single-product-get-paperwallet.php: 110
+msgid "Click on the button below to download your ticket"
+msgstr ""
+
+#: content-single-product-get-tickets.php: 123
+msgid "Retrieve Tickets Using Wallet"
+msgstr ""
+
+#: content-single-product-get-tickets.php: 127
+msgid "Enter Your Wallet Private Key"
+msgstr ""
+
+#: content-single-product-get-tickets.php: 131
+msgid "Retrieve Tickets"
+msgstr ""
+
+#: themes/myticket/woocommerce/content-single-product-get-paperwallet.php:149
+msgid "Wrong private key format"
+msgstr ""
+
+#: themes/myticket/woocommerce/content-single-product-get-paperwallet.php:176
+msgid "Your wallet does not contain any ticket token for this event"
+msgstr ""
+
+#: themes/myticket/woocommerce/content-single-product-get-paperwallet.php:212
+msgid "Wallet private key is required"
+msgstr ""
+
+#: themes/myticket/woocommerce/content-single-product-get-paperwallet.php:216
+msgid "Enter Your Wallet Private Key"
+msgstr ""
+
+#: themes/myticket/functions.php:383
+msgid "Download Ticket %d"
+msgstr ""
+
+#: themes/myticket/functions.php:402
+msgid "Ensure you selected the right event, right private key and logged-in using the correct account."
+msgstr ""
+
+#Mel: 01/09/19. Transferred to myticket-events plugin due to change of ticket PDF system
+#: themes/myticket/woocommerce-pdf-invoices/templates/invoice/simple/minimal/body.php:42
+#msgid "Your Ticket"
+#msgstr ""
+
+#: themes/myticket/myticket-events/ticket-individual.php:158
+msgid "Secured Storage Location."
+msgstr ""
+
+#: themes/myticket/myticket-events/ticket-individual.php:179
+msgid "Smart Contract Address"
+msgstr ""
+
+#: themes/myticket/myticket-events/ticket-individual.php:46
+msgid "Your Virtual Ticket"
+msgstr ""
+
+#Mel: 11/12/19.
+#: themes/myticket/myticket-events/ticket-individual.php:46
+msgid "Your Receipt"
+msgstr ""
+
+#Mel: 11/12/19.
+#: themes/myticket/myticket-events/ticket-individual/index.php:397
+#, php-format
+msgid "Venue: %s"
+msgstr ""
+
+#Mel: 11/12/19.
+#: themes/myticket/myticket-events/ticket-individual/index.php:399
+msgid "Address: %s"
+#, php-format
+msgstr ""

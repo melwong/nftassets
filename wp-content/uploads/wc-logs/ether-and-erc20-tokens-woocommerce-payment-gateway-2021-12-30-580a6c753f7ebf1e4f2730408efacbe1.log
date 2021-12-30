@@ -1,0 +1,10 @@
+12-30-2021 @ 03:29:58 - tokens_supported(ether-and-erc20-tokens-woocommerce-payment-gateway) -> ::1:0:Fixed:5
+12-30-2021 @ 03:29:58 - tokens_supported(ether-and-erc20-tokens-woocommerce-payment-gateway) -> ::1:0:Fixed:5
+12-30-2021 @ 03:30:45 - checkout_order_processed_handler(order_id=13621): total=1.47889
+12-30-2021 @ 03:30:46 - Task complete_order unscheduled for order: 13621
+12-30-2021 @ 03:30:46 - Task complete_order with id 13633 scheduled for order: 13621
+12-30-2021 @ 03:30:47 - Trigger received for PaymentReceivedEmail
+12-30-2021 @ 03:30:47 - Payment method for order 13621 is ether-and-erc20-tokens-woocommerce-payment-gateway
+12-30-2021 @ 03:30:47 - Recipient is test9@test.com
+12-30-2021 @ 03:31:02 - complete_order(order_id: 13621)
+12-30-2021 @ 03:31:02 - Order do not need payment, tx check stopped: 13621

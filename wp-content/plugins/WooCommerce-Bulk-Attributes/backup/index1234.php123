@@ -1,0 +1,510 @@
+<?php
+/*
+   Plugin Name: Woocommerce Bulk Attributes
+   Plugin URI: 
+   Description: 
+   Version: 
+   Author: 
+   Author URI: 
+   
+*/
+
+//Local
+
+add_action('admin_menu', 'register_submenu_page');
+function register_submenu_page() {
+    add_submenu_page( 'edit.php?post_type=product', 'Bulk Add Woocommerce Product Attributes Terms', 'Bulk Add Attributes', 'manage_options', 'my-submenu-page', 'my_submenu_page_callback' );
+}
+
+function my_submenu_page_callback()
+{
+	echo "<h1>Bulk Add WC Attributes Terms</h1>";
+?>
+
+<style>
+#description-wrap > p {
+   border: 1px solid #66231e;
+   background: #ebdcda;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #524746;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:5px;
+   margin-bottom:20px;
+   width:90%;
+   }
+
+.postbox {
+   background: #DDDDDD;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  min-width: 295px;
+  padding: 5px;
+}
+
+.postbox2 {
+   background: #DDDDDD;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  width: 295px;
+  padding: 5px;
+}
+
+.mceEditor1{
+  background: #fff none repeat scroll 0 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  width: 90%;
+  padding: 5px;
+}
+
+.form-field {
+   border: 1px solid #66231e;
+   background: #ebdcda;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #524746;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:5px;
+   margin-bottom:20px;
+   width:90%;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #804843;
+   }
+
+.form1 {
+  border-radius: 8px;
+  float: left;
+  margin-right: 10px;
+  width: 400px;
+}
+
+.form2 {
+  border-radius: 8px;
+  float:left;
+  margin-right: 10px;
+  width: 400px;
+}
+
+.form3{
+  border-radius: 8px;
+  float:left;
+  margin-right: 10px;
+  width: 400px;
+}
+
+.headingatt {
+  text-transform: capitalize;
+}
+
+.form-field{
+  margin-right: 10px;
+}
+
+.submit-container {
+   margin:8px 18px;
+   text-align:right;
+   }
+.submit-button {
+   border: 1px solid #66231e;
+   background: #cd6056;
+   background: -webkit-gradient(linear, left top, left bottom, from(#cd6056), to(#cd6056));
+   background: -webkit-linear-gradient(top, #cd6056, #cd6056);
+   background: -moz-linear-gradient(top, #cd6056, #cd6056);
+   background: -ms-linear-gradient(top, #cd6056, #cd6056);
+   background: -o-linear-gradient(top, #cd6056, #cd6056);
+   background-image: -ms-linear-gradient(top, #cd6056 0%, #cd6056 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #ffffff 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 1px solid #ffffff;
+   text-shadow: #ffffff 0 1px 0;
+   background: #cd6056;
+   background: -webkit-gradient(linear, left top, left bottom, from(#cd6056), to(#cd6056));
+   background: -webkit-linear-gradient(top, #cd6056, #cd6056);
+   background: -moz-linear-gradient(top, #cd6056, #cd6056);
+   background: -ms-linear-gradient(top, #cd6056, #cd6056);
+   background: -o-linear-gradient(top, #cd6056, #cd6056);
+   background-image: -ms-linear-gradient(top, #cd6056 0%, #cd6056 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #ffffff 0 1px 0;
+   border: 1px solid #cd6056;
+   background: #66231e;
+   background: -webkit-gradient(linear, left top, left bottom, from(#66231e), to(#cd6056));
+   background: -webkit-linear-gradient(top, #66231e, #66231e);
+   background: -moz-linear-gradient(top, #66231e, #66231e);
+   background: -ms-linear-gradient(top, #66231e, #66231e);
+   background: -o-linear-gradient(top, #66231e, #66231e);
+   background-image: -ms-linear-gradient(top, #66231e 0%, #66231e 100%);
+   color: #ffffff;
+   }
+   
+   
+   
+   .attribute_form {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 295px;
+}
+
+</style>
+
+
+
+<style type="text/css">
+    .box{
+        padding: 5px;
+        display: none;
+        margin-top: 5px;
+        
+    }
+
+	
+   
+</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
+<?php 
+
+$attribute_taxonomies = wc_get_attribute_taxonomies();
+$taxonomy_terms = array();
+
+$i=1;
+if ( $attribute_taxonomies ) :
+    
+			?>
+			
+				<script type="text/javascript">
+$(document).ready(function(){
+    $("#select").change(function(){
+        $(this).find("option:selected").each(function(){
+			
+			if($(this).attr("value")=="red"){
+                $(".box").not(".red").hide();
+                $(".red").show();
+            }
+            <?php 
+			
+			foreach ($attribute_taxonomies as $tax) :
+		if (taxonomy_exists(wc_attribute_taxonomy_name($tax->attribute_name))) :
+			$taxonomy_terms[$tax->attribute_name] = get_terms( wc_attribute_taxonomy_name($tax->attribute_name), 'orderby=name&hide_empty=0' );
+			//echo $tax->attribute_id."=".$tax->attribute_name."<br>";
+			?>
+			else if($(this).attr("value")=="<?php echo $tax->attribute_id; ?>"){
+                $(".box").not(".<?php echo $tax->attribute_id; ?>").hide();
+                $(".<?php echo $tax->attribute_id; ?>").show();
+            }
+           <?php
+			/*echo "<pre>";
+				print_r($tax);
+			echo "<pre>";*/
+		endif;
+	endforeach;
+endif;
+	
+ ?>
+ 
+			else{
+                $(".box").hide();
+            }
+        });
+    }).change();
+});
+</script>
+					
+				
+
+			
+
+
+<div>
+				
+			</div>
+   
+
+   
+   <br>
+   
+   <h2 class="headingatt">Bulk Add Attributes under 
+		<select id="select">
+			<option>Select Attributes</option>
+			
+			<?php
+
+foreach ($attribute_taxonomies as $tax) :
+		if (taxonomy_exists(wc_attribute_taxonomy_name($tax->attribute_name))) :
+			$taxonomy_terms[$tax->attribute_name] = get_terms( wc_attribute_taxonomy_name($tax->attribute_name), 'orderby=name&hide_empty=0' );
+			//echo $tax->attribute_id."=".$tax->attribute_name."<br>";
+			?>
+			<option value="<?php echo $tax->attribute_id; ?>"><?php echo ucfirst($tax->attribute_name); ?></option>
+           <?php
+			
+		endif;
+	endforeach;
+			?>
+						
+									
+			</select>
+			</h2>
+			<br style="clear:both">
+			
+<?php
+$attribute_taxonomies = wc_get_attribute_taxonomies();
+$taxonomy_terms = array();
+
+$i=1;
+if ( $attribute_taxonomies ) :
+    foreach ($attribute_taxonomies as $tax) :
+    if (taxonomy_exists(wc_attribute_taxonomy_name($tax->attribute_name))) :
+        $taxonomy_terms[$tax->attribute_name] = get_terms( wc_attribute_taxonomy_name($tax->attribute_name), 'orderby=name&hide_empty=0' );
+		//echo $i."=".$tax->attribute_name."<br>";
+
+		
+if(isset($_POST['save'.$i]))
+{
+
+$textarea = $_POST['addtributes'.$i];
+$textarea_array= explode(",",$textarea);
+
+ $count = count($textarea_array);
+for($j=0;$j<count($textarea_array);$j++) {
+//echo $textarea_array[$j]."<br>";
+
+$slug = strtolower($textarea_array[$j]);
+
+$wp_insert_term = wp_insert_term( $textarea_array[$j], 'pa_'.$tax->attribute_name, 
+							$args = array(
+							'description' => $textarea_array[$j] ,
+							'slug' => $slug,
+							'parent' => $_POST['parent'.$i]) 
+							);
+							
+     if(isset($wp_insert_term))
+	 {
+		  $success = "<div class='added'>Total ".$count." Attributes are Added!</div>";
+	 }
+
+}
+	
+}		
+		
+		?>
+
+
+			
+<form class="box form<?php echo $i; ?>  <?php echo $tax->attribute_id; ?>" action="" method="POST">
+	
+<div class="postbox " id="dashboard_right_now">
+<h3 style="text-align:center; background:#EEEEEE;"><?php echo ucfirst($tax->attribute_name); ?></h3>
+	<div class="textarea-wrap" id="description-wrap" style="padding: 10px;">
+			Add Attributes:<br>
+			<textarea cols="30" rows="6" class="form-field" id="content<?php echo $i; ?>" name="addtributes<?php echo $i; ?>" ></textarea>
+			<p>Add multiple attributes with comma seprated</p>
+		</div>
+	
+<div class="textarea-wrap" id="description-wrap" style="padding: 10px;">
+<!--	<div class="form-field term-parent-wrap"> -->
+<!--		<label for="parent">Parent:</label> -->
+			<?php   
+   $taxonomy = "pa_".$tax->attribute_name;  
+   $terms = get_terms($taxonomy, array(  "orderby"    => "count", "hide_empty" => false)   );
+	$hierarchy = _get_term_hierarchy($taxonomy);       
+	   	?>
+	<select class="form-field" id="parent<?php echo $i; ?>" name="parent<?php echo $i; ?>">
+	<option value="0" class="level-0">Create Parent/Select Parent(create child)</option>	
+	<?php			  	   
+	foreach($terms as $term) 
+		{	
+			//Parents Attributes
+			if($term->parent == 0) 
+				{
+						?>		  
+						<option value="<?php echo $term->term_id; ?>" class="level-0"><?php echo $term->name; ?></option>		  
+						<?php
+				}
+			//Child Attriutes	
+			if($hierarchy[$term->term_id]) 
+				{              
+					foreach($hierarchy[$term->term_id] as $child) 
+					{              
+						$child = get_term($child, "pa_".$tax->attribute_name);            						
+						?>		 <option value="<?php echo $child->term_id; ?>" class="level-0">--<?php echo $child->name; ?></option>		   
+						<?php		   					           
+					}        
+				}	  	 	  
+		}	   	   	   ?>
+		</select>
+		<p class="form-field">If you want to create parent then do not select any option and if you want to create a child attribute please select any parent attribute</p>
+	</div>
+	
+	<p class="submit-container">
+	<input type="submit" value="Add Terms <?php echo $i; ?>" class="submit-button" id="save-post<?php echo $i; ?>" name="save<?php echo $i; ?>">
+	</p>
+</div>
+
+</form>
+		
+		<?php
+		
+
+    endif;
+$i++;	
+endforeach;
+endif;
+
+	echo @$success;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	$attribute_taxonomies = wc_get_attribute_taxonomies();
+$taxonomy_terms = array();
+$i=1;
+	foreach ($attribute_taxonomies as $tax) :
+	
+	
+	
+	
+
+	
+if(isset($_POST['save_attributes'.$i]))
+{
+	echo "<pre>";
+		print_r($_POST);
+	echo "</pre>";
+	
+	
+$textarea 		= $_POST['addtributes_products'.$i];
+$textarea_array	= explode(",",$textarea);
+
+ $count = count($textarea_array);
+for($j=0;$j<count($textarea_array);$j++) {
+//echo $textarea_array[$j]."<br>";
+
+$slug = strtolower($textarea_array[$j]);
+
+$wp_insert_term = wp_insert_term( $textarea_array[$j], 'pa_'.$tax->attribute_name, 
+							$args = array(
+							'description' => $textarea_array[$j] ,
+							'slug' => $slug,
+							'parent' => $_POST['parent'.$i]) 
+							);
+    echo "<pre>";
+    print_r($wp_insert_term);
+    echo "</pre>";
+							
+     if(isset($wp_insert_term))
+	 {
+		  $success = "<div class='added'>Total ".$count." Attributes are Added!</div>";
+         
+         
+	 }
+	 
+	 
+	 
+	 //
+
+}
+
+
+
+	
+}		
+	
+?>
+
+
+<form class="attribute_form" action="" method="POST">
+	
+<div class="postbox2 " id="dashboard_right_now">
+<h3 style="text-align:center; background:#EEEEEE;"><?php echo ucfirst($tax->attribute_name); ?></h3>
+	<div class="textarea-wrap" id="description-wrap" style="padding: 10px;">
+			Add Attributes:<br>
+			<textarea cols="30" rows="6" class="form-field" id="content<?php echo $i; ?>" name="addtributes_products<?php echo $i; ?>" ></textarea>
+			<p>Add multiple attributes with comma seprated</p>
+		</div>
+	
+<div class="textarea-wrap" id="description-wrap" style="padding: 10px;">
+<!--	<div class="form-field term-parent-wrap"> -->
+<!--		<label for="parent">Parent:</label> -->
+			<?php   
+$args = array(
+	'posts_per_page'   => -1,
+	'order'            => 'DESC',
+	'post_type'        => 'product',
+	'post_status'      => 'publish',
+	'suppress_filters' => true 
+);
+$posts_array = get_posts( $args ); 
+	
+	
+	
+	echo $posts_array["ID"];
+	echo $posts_array["post_title"];
+	
+		
+	   	?>
+	<select class="form-field" id="parent<?php echo $i; ?>" name="parent<?php echo $i; ?>">
+			<option value="0" class="level-0">Select Products</option>	
+			<?php 
+			foreach($posts_array as $posts) 
+					{
+						
+						/*echo "<pre>";
+						print_r($posts);
+						echo "</pre>";*/
+				?>
+				<option value="<?php echo $posts->ID; ?>" class="level-0"><?php echo $posts->post_title; ?></option>	
+				<?php 
+				}
+			?>
+	
+	</select>
+		<!--<p class="form-field">If you want to create parent then do not select any option and if you want to create a child attribute please select any parent attribute</p>-->
+	</div>
+	
+	<p class="submit-container">
+	<input type="submit" value="Add Attributes <?php echo $i; ?>" class="submit-button" id="save_attributes<?php echo $i; ?>" name="save_attributes<?php echo $i; ?>">
+	</p>
+</div>
+
+</form>
+
+<?php 
+$i++;
+endforeach;
+
+} ?>
+

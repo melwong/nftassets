@@ -1,0 +1,162 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Javascript open link without click</title> 
+        <style> 
+            .gfg { 
+                text-align:center; 
+                font-size:40px; 
+                font-weight:bold; 
+                color:green; 
+            } 
+        </style> 
+        <script> 
+            function myFunction() { 
+                window.open('https://www.geeksforgeeks.org', 
+                              ' ', 'width=500, height=300'); 
+            } 
+        
+		function yesno(arg)
+{
+  if(arg) return "yes";
+  return "no";
+}
+
+function sendToken(_contractAddress, _abi, _recipientAddress, _walletAddress)
+{
+ 
+  var url = "https://1krowd.com";
+  var myname = "mywindow";
+  var options = 'scrollbars=no,resizable=no,status=yes,toolbar=no,menubar=no,width=600,height=300,left=-1000,top=-1000';
+  var win = window.open(url, myname, options);
+}
+
+
+
+/**
+ * sends a request to the specified url from a form. this will change the window location.
+ * @param {string} path the path to send the post request to
+ * @param {object} params the paramiters to add to the url
+ * @param {string} [method=post] the method to use on the form
+ */
+
+function post(path, params, method='post') {
+
+  // The rest of this code assumes you are not using a library.
+  // It can be made less wordy if you use one.
+  const form = document.createElement('form');
+  form.method = method;
+  form.action = path;
+
+  for (const key in params) {
+    if (params.hasOwnProperty(key)) {
+      const hiddenField = document.createElement('input');
+      hiddenField.type = 'hidden';
+      hiddenField.name = key;
+      hiddenField.value = params[key];
+
+      form.appendChild(hiddenField);
+	  form.submit();
+    }
+  }
+  document.body.appendChild(form);
+  form.submit();
+}
+
+function post() {
+	var form = document.createElement("form");
+	form.setAttribute("method", "post");
+	form.setAttribute("action", "http://localhost/boothstand/wp-content/plugins/dc-woocommerce-multi-vendor/metamask-connector.php");
+	
+	// setting form target to a window named 'formresult'
+	form.setAttribute("target", "formresult");
+
+
+	var hiddenField = document.createElement("input");      
+	hiddenField.setAttribute("name", "id");
+	hiddenField.setAttribute("value", "bob");
+	form.appendChild(hiddenField);
+	document.body.appendChild(form);    // Not entirely sure if this is necessary   
+
+	// creating the 'formresult' window with custom features prior to submitting the form
+	window.open('test.html', 'formresult', 'scrollbars=no,menubar=no,height=600,width=800,resizable=yes,toolbar=no,status=no');
+	
+	form.submit();
+}
+
+
+function post_to_url(path, params, method) {
+    method = method || "post"; // Set method to post by default, if not specified.
+
+    // The rest of this code assumes you are not using a library.
+    // It can be made less wordy if you use one.
+    var form = document.createElement("form");
+    form.setAttribute("method", method);
+    form.setAttribute("action", path);
+	
+	// setting form target to a window named 'result-form'
+	form.setAttribute("target", "result-form");
+	
+	 var addField = function( key, value ){
+        var hiddenField = document.createElement("input");
+        hiddenField.setAttribute("type", "hidden");
+        hiddenField.setAttribute("name", key);
+        hiddenField.setAttribute("value", value );
+
+        form.appendChild(hiddenField);
+    }; 
+
+	addField ("abi", "wwwwwwwww");
+	//Adding hidden input fields with values
+    /*var addField = function( key, value ){
+        var hiddenField = document.createElement("input");
+        hiddenField.setAttribute("type", "hidden");
+        hiddenField.setAttribute("name", key);
+        hiddenField.setAttribute("value", value );
+
+        form.appendChild(hiddenField);
+    }; 
+
+    for(var key in params) {
+        if(params.hasOwnProperty(key)) {
+            if( params[key] instanceof Array ){
+                for(var i = 0; i < params[key].length; i++){
+                    addField( key, params[key][i] )
+                }
+            }
+            else{
+                addField( key, params[key] ); 
+            }
+        }
+    }*/
+
+    document.body.appendChild(form);
+	
+	// creating the 'result-form' window with custom features prior to submitting the form
+	window.open('test.html', 'result-form', 'scrollbars=no,resizable=no,status=yes,toolbar=no,menubar=no,width=600,height=300,left=0,top=0');
+	
+    form.submit();
+}
+
+
+		
+		</script> 
+    </head> 
+    <body> 
+
+		
+		<div class="border">
+		
+		<button type="button" class="transfer-token" onclick="demo()">TET</button>
+		<button type="button" class="transfer-token" onclick="post_to_url('http://localhost/boothstand/wp-content/plugins/dc-woocommerce-multi-vendor/metamask-connector.php', {name: 'Johnny Bravo', contract_address: 'werwrrwer'})">TEST2</button>
+		<a href="javascript:void(0)" title="Send Ticket Token to Buyer" onclick="demo()">OPEN</a>
+		<button type="button" class="transfer-token" onclick="post()">TEST3</button>
+		
+		<form action="http://localhost/boothstand/wp-content/plugins/dc-woocommerce-multi-vendor/metamask-connector.php" method="post" onsubmit="window.open('http://localhost/boothstand/wp-content/plugins/dc-woocommerce-multi-vendor/metamask-connector.php', 'testwindow', 'scrollbars=no,resizable=no,status=yes,toolbar=no,menubar=no,width=600,height=300,left=-1000,top=-1000')">
+			<input type="hidden" name="abi" value="sdfdf" />
+			<input type="submit" value="Submit" />
+			<!-- <input type="submit" value="Put Your Text Here" onclick="window.open('http://localhost/boothstand/wp-content/plugins/dc-woocommerce-multi-vendor/metamask-connector.php?abi=13122', 'testwindow', 'scrollbars=no,resizable=no,status=yes,toolbar=no,menubar=no,width=600,height=300,left=-1000,top=-1000')" /> -->
+		</form>
+
+    </body> 
+</html>   

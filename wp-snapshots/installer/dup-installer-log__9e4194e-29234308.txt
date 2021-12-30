@@ -1,0 +1,1162 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:49:29
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.25                                |7.4.25
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2021-12-29 23:43:08
+WP VERSION__________: 5.1.11
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.24
+DB TABLES___________: 95
+DB ROWS_____________: 492,735
+DB FILE SIZE________: 87.01MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.25 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.35 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9
+DOC ROOT____________: "C:/laragon/www/nftassets"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://nftassets.test/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/laragon/www/nftassets/krowdhub_db_301221_[HASH]_20211229234308_archive.zip"
+SIZE________________: 8.45MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-211229234929-61ccf4094a901-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/laragon/www/nftassets/krowdhub_db_301221_[HASH]_20211229234308_archive.zip"
+SIZE________________: 8.45MBFile timestamp set to Current: 2021-12-29 23:49:29
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 11:49:29 - RUNTIME: 0.3643 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:49:48
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.24 -- Build Server: 5.7.24
+FILE SIZE:	dup-database__[HASH].sql (44MB)
+TIMEOUT:	5000
+MAXPACK:	134217728
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/laragon/www/nftassets/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	854
+
+ticket_owners: (524)
+ticket_tokens: (2)
+wp_atum_order_itemmeta: (0)
+wp_atum_order_items: (0)
+wp_atum_product_data: (72)
+wp_aws_cache: (0)
+wp_aws_index: (3055)
+wp_cfs_sessions: (0)
+wp_cfs_values: (0)
+wp_commentmeta: (55)
+wp_comments: (1153)
+wp_duplicator_packages: (0)
+wp_eum_logs: (0)
+wp_failed_jobs: (0)
+wp_fv_digiwidgetsdata: (1)
+wp_fv_digiwidgetslog: (0)
+wp_fv_digiwidgetsloghistory: (0)
+wp_fv_digiwidgetstemplates: (4)
+wp_links: (0)
+wp_mailchimp_carts: (0)
+wp_nm_personalized: (3)
+wp_options: (1183)
+wp_postmeta: (34297)
+wp_posts: (2387)
+wp_queue: (0)
+wp_term_relationships: (295)
+wp_term_taxonomy: (890)
+wp_termmeta: (676)
+wp_terms: (890)
+wp_usermeta: (1313)
+wp_usermeta_copy_120919: (818)
+wp_users: (33)
+wp_wc_download_log: (71)
+wp_wc_product_meta_lookup: (127)
+wp_wc_webhooks: (0)
+wp_wcfm_daily_analysis: (5)
+wp_wcfm_detailed_analysis: (22)
+wp_wcfm_enquiries: (0)
+wp_wcfm_enquiries_meta: (0)
+wp_wcfm_enquiries_response: (0)
+wp_wcfm_enquiries_response_meta: (0)
+wp_wcfm_following_followers: (0)
+wp_wcfm_marketplace_orders: (0)
+wp_wcfm_marketplace_orders_meta: (0)
+wp_wcfm_marketplace_product_multivendor: (0)
+wp_wcfm_marketplace_refund_request: (0)
+wp_wcfm_marketplace_refund_request_meta: (0)
+wp_wcfm_marketplace_reverse_withdrawal: (0)
+wp_wcfm_marketplace_reverse_withdrawal_meta: (0)
+wp_wcfm_marketplace_review_rating_meta: (0)
+wp_wcfm_marketplace_reviews: (0)
+wp_wcfm_marketplace_reviews_response: (0)
+wp_wcfm_marketplace_reviews_response_meta: (0)
+wp_wcfm_marketplace_shipping_zone_locations: (0)
+wp_wcfm_marketplace_shipping_zone_methods: (0)
+wp_wcfm_marketplace_store_taxonomies: (0)
+wp_wcfm_marketplace_vendor_ledger: (0)
+wp_wcfm_marketplace_withdraw_request: (0)
+wp_wcfm_marketplace_withdraw_request_meta: (0)
+wp_wcfm_membership_subscription: (0)
+wp_wcfm_messages: (3)
+wp_wcfm_messages_modifier: (1)
+wp_wcfm_messages_stat: (0)
+wp_wcfm_support: (0)
+wp_wcfm_support_meta: (0)
+wp_wcfm_support_response: (0)
+wp_wcfm_support_response_meta: (0)
+wp_wcmp_cust_answers: (0)
+wp_wcmp_cust_questions: (0)
+wp_wcmp_products_map: (56)
+wp_wcmp_shipping_zone_locations: (0)
+wp_wcmp_shipping_zone_methods: (0)
+wp_wcmp_vendor_ledger: (191)
+wp_wcmp_vendor_orders: (210)
+wp_wcmp_visitors_stats: (1)
+wp_woocommerce_api_keys: (1)
+wp_woocommerce_attribute_taxonomies: (27)
+wp_woocommerce_downloadable_product_permissions: (82)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (13782)
+wp_woocommerce_order_items: (1089)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (2)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (6)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpimager: (1)
+wp_wsal_metadata: (397523)
+wp_wsal_occurrences: (36514)
+wp_wsal_options: (41)
+wp_yith_wapo_groups: (0)
+wp_yith_wapo_types: (0)
+Removed '48' cache/transient rows
+
+INSERT DATA RUNTIME: 16.4731 sec.
+STEP-2 COMPLETE @ 11:50:05 - RUNTIME: 16.7211 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:50:34
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "NFT Assets"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/laragon/www/krowdhub"
+path_new______________: "C:/laragon/www/nftassets"
+siteurl_______________: "http://nftassets.test"
+url_old_______________: "http://krowdhub.test"
+url_new_______________: "http://nftassets.test"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "ticket_owners"___________________________________[ROWS:   524][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "ticket_tokens"___________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_atum_order_itemmeta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_atum_order_items"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_atum_product_data"____________________________[ROWS:    72][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_aws_cache"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_aws_index"____________________________________[ROWS:  3055][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_cfs_sessions"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cfs_values"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:  1153][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_eum_logs"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_failed_jobs"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fv_digiwidgetsdata"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_fv_digiwidgetslog"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fv_digiwidgetsloghistory"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_fv_digiwidgetstemplates"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_carts"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nm_personalized"______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:  1183][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 34297][PG:  10][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  2387][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_queue"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   295][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:   890][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   676][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:   890][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:  1313][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_usermeta_copy_120919"_________________________[ROWS:   818][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:   127][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_daily_analysis"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wcfm_detailed_analysis"_______________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wcfm_enquiries"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_enquiries_meta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_enquiries_response"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_enquiries_response_meta"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_following_followers"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_orders"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_orders_meta"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_product_multivendor"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_refund_request"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_refund_request_meta"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reverse_withdrawal"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reverse_withdrawal_meta"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_review_rating_meta"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reviews"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reviews_response"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_reviews_response_meta"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_shipping_zone_locations"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_shipping_zone_methods"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_store_taxonomies"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_vendor_ledger"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_withdraw_request"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_marketplace_withdraw_request_meta"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_membership_subscription"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_messages"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wcfm_messages_modifier"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wcfm_messages_stat"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_support"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_support_meta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_support_response"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcfm_support_response_meta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcmp_cust_answers"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcmp_cust_questions"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcmp_products_map"____________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wcmp_shipping_zone_locations"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcmp_shipping_zone_methods"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcmp_vendor_ledger"___________________________[ROWS:   191][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wcmp_vendor_orders"___________________________[ROWS:   210][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wcmp_visitors_stats"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:    82][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS: 13782][PG:   4][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:  1089][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpimager"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wsal_metadata"________________________________[ROWS:397523][PG: 114][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wsal_occurrences"_____________________________[ROWS: 36514][PG:  11][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_wsal_options"_________________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  2:"C:\/laragon\/www\/krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fkrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  4:"C:\laragon\www\krowdhub" =========================> "C:/laragon/www/nftassets"
+	SEARCH  5:"C:\\laragon\\www\\krowdhub" ======================> "C:\/laragon\/www\/nftassets"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Ckrowdhub" =================> "C%3A%2Flaragon%2Fwww%2Fnftassets"
+	SEARCH  7:"//krowdhub.test" =================================> "//nftassets.test"
+	SEARCH  8:"\/\/krowdhub.test" ===============================> "\/\/nftassets.test"
+	SEARCH  9:"%2F%2Fkrowdhub.test" =============================> "%2F%2Fnftassets.test"
+	SEARCH 10:"//www.krowdhub.test" =============================> "//nftassets.test"
+	SEARCH 11:"\/\/www.krowdhub.test" ===========================> "\/\/nftassets.test"
+	SEARCH 12:"%2F%2Fwww.krowdhub.test" =========================> "%2F%2Fnftassets.test"
+	SEARCH 13:"https://nftassets.test" ==========================> "http://nftassets.test"
+	SEARCH 14:"https:\/\/nftassets.test" ========================> "http:\/\/nftassets.test"
+	SEARCH 15:"https%3A%2F%2Fnftassets.test" ====================> "http%3A%2F%2Fnftassets.test"
+
+EVALUATE TABLE: "wp_yith_wapo_groups"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wapo_types"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:95 	|	 Rows:497408 	|	 Cells:2149927 
+UPDATED:	Tables:11 	|	 Rows:44127 	|	 Cells:44284 
+ERRORS:		0 
+RUNTIME:	55.157700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:51:30 - RUNTIME: 55.5682 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

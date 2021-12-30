@@ -1,0 +1,237 @@
+#: includes/settings/class-alg-wc-settings-sid.php:24
+msgid "Shipping Icons and Descriptions"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-sid.php:49
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-sid.php:54
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-sid.php:55
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-sid.php:95
+msgid "Your settings have been reset."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:24
+msgid "Descriptions"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:39
+msgid "Your shipping description."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:47
+msgid "Shipping Descriptions"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:49
+msgid ""
+"Here you can add any text (i.e. description) for shipping methods on cart "
+"and checkout pages."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:53
+msgid "Shipping descriptions"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:54
+#: includes/settings/class-alg-wc-sid-settings-icons.php:48
+msgid "Enable section"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:55
+msgid "WooCommerce shipping descriptions."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:61
+msgid "Description position"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:67
+#: includes/settings/class-alg-wc-sid-settings-icons.php:61
+msgid "After label"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:68
+#: includes/settings/class-alg-wc-sid-settings-icons.php:62
+msgid "Before label"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:72
+msgid "Description visibility"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:78
+#: includes/settings/class-alg-wc-sid-settings-icons.php:72
+msgid "On both cart and checkout pages"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:79
+#: includes/settings/class-alg-wc-sid-settings-icons.php:73
+msgid "Only on cart page"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:80
+#: includes/settings/class-alg-wc-sid-settings-icons.php:74
+msgid "Only on checkout page"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:82
+#: includes/settings/class-alg-wc-sid-settings-icons.php:76
+msgid ""
+"Possible values: on both cart and checkout pages; only on cart page; only on "
+"checkout page"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:89
+msgid "Order details"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:90
+msgid "Add"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:91
+msgid ""
+"Enable this if you want shipping descriptions to be added to order details "
+"(\"Order received\" page, emails etc.)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:97
+#: includes/settings/class-alg-wc-sid-settings-icons.php:105
+msgid "Apply shortcodes"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:98
+#: includes/settings/class-alg-wc-sid-settings-descs.php:122
+#: includes/settings/class-alg-wc-sid-settings-icons.php:106
+#: includes/settings/class-alg-wc-sid-settings-icons.php:127
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:99
+msgid "Check this if you want shortcodes to be enabled in descriptions."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:100
+#: includes/settings/class-alg-wc-sid-settings-icons.php:108
+#, php-format
+msgid "E.g.: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:113
+#: includes/settings/class-alg-wc-sid-settings-icons.php:121
+msgid "Methods"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:116
+#, php-format
+msgid "You can add HTML tags here, e.g.: %s"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:121
+#: includes/settings/class-alg-wc-sid-settings-icons.php:126
+msgid "Use shipping instances"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:123
+#: includes/settings/class-alg-wc-sid-settings-icons.php:128
+msgid ""
+"Enable this if you want to use shipping methods instances instead of "
+"shipping methods."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-descs.php:124
+msgid ""
+"For example if you need to set different descriptions for different "
+"instances of Flat rate (or any other) shipping method (either in different "
+"or in same shipping zone)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:24
+msgid "Icons"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:41
+msgid "Shipping Icons"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:44
+msgid "Here you can add icons for shipping methods on cart and checkout pages."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:47
+msgid "Shipping icons"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:49
+msgid "WooCommerce shipping icons."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:55
+msgid "Icon position"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:66
+msgid "Icon visibility"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:83
+msgid "Icon HTML style"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:84
+#, php-format
+msgid "For the %s tag."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:90
+msgid "Icon HTML class"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:91
+#, php-format
+msgid "For styling the %s tag with CSS."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:97
+msgid "Separator"
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:98
+msgid "Inserted between the text label and icon. Space symbol by default."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:107
+msgid "Check this if you want shortcodes to be enabled in icons."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:129
+msgid ""
+"For example if you need to set different icons for different instances of "
+"Flat rate (or any other) shipping method (either in different or in same "
+"shipping zone)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:145
+msgid "Image URL."
+msgstr ""
+
+#: includes/settings/class-alg-wc-sid-settings-icons.php:149
+#, php-format
+msgid "For styling the current %s tag with CSS you can use ID %s."
+msgstr ""
+
+#: shipping-icons-descriptions-woocommerce.php:118
+msgid "Settings"
+msgstr ""
+
+#: shipping-icons-descriptions-woocommerce.php:121
+msgid "Unlock All"
+msgstr ""
