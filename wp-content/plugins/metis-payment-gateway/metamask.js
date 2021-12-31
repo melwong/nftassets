@@ -1,9 +1,6 @@
-
+					
+					
 						var web3;
-						async function connect() {
-								await window.web3.currentProvider.enable();
-								web3 = new Web3(window.web3.currentProvider);
-						}
 										
 						window.addEventListener('load', function () {
 							if (typeof web3 !== 'undefined') {
@@ -47,7 +44,7 @@
 									 
 										// ajaxurl is always defined in the admin header and points to admin-ajax.php
 										//$.post(ajaxurl, data, function(response) {
-											window.location.href = "http://nftassets.test/checkout/order-received/"
+											window.location.href = document.location.origin + "/checkout/order-received/";
 											//console.log('This is return from the server: ' + response);
 										//});
 										

@@ -109,13 +109,13 @@ function initialize_gateway_class() {
 
 			if ( $this->description ) {
 				if ( $this->test_mode ) {
-					$this->description .= ' Test mode is enabled.';
+					$this->description .= '';
 				}
 				echo wpautop( wp_kses_post( $this->description ) );
 			}
 			
 			?>
-
+			
 			<fieldset id="wc-<?php echo esc_attr( $this->id ); ?>-cc-form" class="wc-credit-card-form wc-payment-form" style="background:transparent;">
 
 				<?php do_action( 'woocommerce_credit_card_form_start', $this->id ); ?>
@@ -174,17 +174,77 @@ function initialize_gateway_class() {
 			} */
 
 			// payment processor JS that allows to get a token
-			wp_enqueue_script( 'metis_js', 'https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js' );
+			//wp_enqueue_script( 'metis_js', 'https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js' );
 
 			// custom JS that works with get-token.js
-			wp_register_script( 'woocommerce_pay_metis', plugins_url( 'metamask.js', __FILE__ ), array( 'jquery', 'metis_js' ) );
+			//wp_register_script( 'woocommerce_pay_metis', plugins_url( 'metamask.js', __FILE__ ), array( 'jquery', 'metis_js' ) );
 
 			// use public key to get token
 /* 			wp_localize_script( 'woocommerce_pay_metis', 'metis_params', array(
 				'publishKey' => $this->publish_key
 			) ); */
 
-			wp_enqueue_script( 'woocommerce_pay_metis' );
+			//wp_enqueue_script( 'woocommerce_pay_metis' );
+			
+			//wp_enqueue_script( 'metis_js', 'https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js' );
+			//wp_enqueue_script( 'jquery2', 'https://code.jquery.com/jquery-3.6.0.js' );
+			
+?>
+<!--
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>-->
+<script>
+				/*
+					jQuery( function($) {     
+					  $("form.woocommerce-checkout")
+					  .on('submit', function() { 
+						
+							var web3;
+							window.addEventListener('load', function () {
+								if (typeof web3 !== 'undefined') {
+									console.log('Web3 Detected! ' + web3.currentProvider.constructor.name)
+									
+									window.web3.currentProvider.enable();
+									web3 = new Web3(window.web3.currentProvider);
+									
+									//window.web3 = new Web3(web3.currentProvider);
+									
+									//Send ETH To this wallet. Owner of smart contract
+									var toAddress = '0x455A58fC32cc8C42f7873ab3214C3f69Ba0D7AB9' 
+
+									var account = web3.eth.accounts;
+									
+									//Get the current MetaMask selected/active wallet
+									walletAddress = account.givenProvider.selectedAddress;
+
+									console.log("Send from: " + walletAddress);
+									console.log("Send to: " + toAddress);								
+									
+									web3.eth.sendTransaction({
+										from: walletAddress,
+										to: toAddress,
+										value: web3.utils.toWei('<?php echo WC()->cart->cart_contents_total; ?>', 'ether')
+									}, function (error, result) {
+										if (error) {
+											console.log(error);
+											
+										} else {
+											window.location.href = document.location.origin + "/checkout/order-received/";
+
+										}
+										
+									});
+									
+								} else {
+									
+								}
+							});
+						}); 
+					}); 
+*/
+			</script>
+
+<?php
 
 		}
 		
@@ -208,6 +268,12 @@ function initialize_gateway_class() {
 		 
 			// get order detailes
 			$order = wc_get_order( $order_id );
+			
+?>
+
+
+
+<?php
 		 
 			// Array with arguments for API interaction
 			/* $args = array(
@@ -216,12 +282,12 @@ function initialize_gateway_class() {
 			
 			$response = wp_remote_post( '{payment-processor-endpoint}', $args ); */
 		 
-			if( !is_wp_error( $response ) ) {
+			//if( !is_wp_error( $response ) ) {
 		 
-				$body = json_decode( $response['body'], true );
+				//$body = json_decode( $response['body'], true );
 		 
 				// it could be different depending on your payment processor
-				if ( $body['response']['responseCode'] == 'APPROVED' ) {
+				//if ( $body['response']['responseCode'] == 'APPROVED' ) {
 		 
 					// we received the payment
 					$order->payment_complete();
@@ -240,15 +306,15 @@ function initialize_gateway_class() {
 						'redirect' => $this->get_return_url( $order )
 					);
 		 
-				} else {
-					wc_add_notice(  'Please try again.', 'error' );
-					return;
-				}
+				//} else {
+					//wc_add_notice(  'Please try again.', 'error' );
+					//return;
+				//}
 		 
-			} else {
-				wc_add_notice(  'Connection error.', 'error' );
-				return;
-			}
+			//} else {
+				//wc_add_notice(  'Connection error.', 'error' );
+				//return;
+			//}
 		 
 		}
 	

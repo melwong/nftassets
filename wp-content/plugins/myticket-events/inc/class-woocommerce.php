@@ -636,11 +636,12 @@ function myticket_add_content_thankyou( $order_id ) {
             echo '<div class="kenzap-download-ticket" style="background-image:url('.MYTICKET_URL.'/dist/assets/download-ticket-bg.png);">
                     <div class="kenzap-container" style="max-width:1170px">
                         <img src="'.MYTICKET_URL.'/dist/assets/download-ticket-img.png" alt="'.esc_attr__('Download image','myticket-events').'">
-                        <p>'.esc_html__('Thanks for purchasing','myticket-events').' "<strong>'.esc_html($ticket_name).'</strong>" '.esc_html__('ticket','myticket-events').'. </p>';
-                        
-                            echo '<p>'.esc_html__('You can directly download ticket by clicking','myticket-events').' <span>'.esc_html__('Download','myticket-events').'</span> '.esc_html__('button below','myticket-events').'.</p>';
+                        <p>'.esc_html__('Thanks for purchasing','myticket-events').' "<strong>'.esc_html($ticket_name).'</strong>" '.esc_html__('NFT token','myticket-events').'. </p>';
+							
+							//Mel: 31/12/21
+                            //echo '<p>'.esc_html__('You can directly download ticket by clicking','myticket-events').' <span>'.esc_html__('Download','myticket-events').'</span> '.esc_html__('button below','myticket-events').'.</p>';
                             $order->payment_complete();
-                            echo do_shortcode( '[myticket-download-invoice class="primary-link" title="'.esc_attr__('Download Your Ticket','myticket-events').'" order_id="' . esc_attr($order->get_id()) . '"]' );
+                            //echo do_shortcode( '[myticket-download-invoice class="primary-link" title="'.esc_attr__('Download Your Ticket','myticket-events').'" order_id="' . esc_attr($order->get_id()) . '"]' );
                         
                         echo '
                     </div>';
@@ -654,11 +655,12 @@ function myticket_add_content_thankyou( $order_id ) {
             <div class="row">   
                 <div class="section-download-ticket-multi">
 
-                    <h4><?php esc_html_e('Or download each ticket individually','myticket');?></h4>
+                    <h4><?php //Mel: 31/12/21 esc_html_e('Or download each ticket individually','myticket');?></h4>
 
                     <?php $i=1; foreach( $order->get_items() as $item ) {
-
-                        echo do_shortcode( '[myticket-download-invoice-multi title="'.esc_html__('Download ticket','myticket').' #'.esc_attr($i).'" order_id="' . $order->get_id() . '" item_id="' . $item->get_id() . '" ticket_id="' . $i . '" ]' ); ?>
+						
+						//Mel: 31/12/21
+                        //echo do_shortcode( '[myticket-download-invoice-multi title="'.esc_html__('Download ticket','myticket').' #'.esc_attr($i).'" order_id="' . $order->get_id() . '" item_id="' . $item->get_id() . '" ticket_id="' . $i . '" ]' ); ?>
 
                     <?php $i++; } ?>
 

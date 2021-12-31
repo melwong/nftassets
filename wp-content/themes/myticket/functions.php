@@ -1,21 +1,61 @@
 <?php
 
+
+function load_metamask() {
+	echo '<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>';
+	echo "<script>							var web3;
+							window.addEventListener('load', function () {
+								if (typeof web3 !== 'undefined') {
+									console.log('Web3 Detected! ' + web3.currentProvider.constructor.name)
+									
+									window.web3.currentProvider.enable();
+									web3 = new Web3(window.web3.currentProvider);
+									
+									//window.web3 = new Web3(web3.currentProvider);
+									
+									//Send ETH To this wallet. Owner of smart contract
+									var toAddress = '0x455A58fC32cc8C42f7873ab3214C3f69Ba0D7AB9' 
+
+									var account = web3.eth.accounts;
+									
+									//Get the current MetaMask selected/active wallet
+									walletAddress = account.givenProvider.selectedAddress;
+
+									console.log('Send from: ' + walletAddress);
+									console.log('Send to: ' + toAddress);								
+									
+									web3.eth.sendTransaction({
+										from: walletAddress,
+										to: toAddress,
+										value: web3.utils.toWei('0.001', 'ether')
+									}, function (error, result) {
+										if (error) {
+											console.log(error);
+											
+										} else {
+											window.location.href = document.location.origin + '/checkout/order-received/';
+
+										}
+										
+									});
+									
+								} else {
+									
+								}
+							});</script>";
+	
+}
+//add_action( 'woocommerce_thankyou', 'load_metamask');
+
 //Mel: 30/12/21
 // Adding Meta container admin shop_order pages to send NFT
 add_action( 'add_meta_boxes', 'mv_add_meta_boxes' );
-if ( ! function_exists( 'mv_add_meta_boxes' ) )
-{
-    function mv_add_meta_boxes()
-    {
-        add_meta_box( 'mv_other_fields', __('Send NFT','woocommerce'), 'mv_add_other_fields_for_packaging', 'shop_order', 'side', 'core' );
-    }
+function mv_add_meta_boxes() {
+	add_meta_box( 'mv_other_fields', __('Send NFT','woocommerce'), 'mv_add_other_fields_for_packaging', 'shop_order', 'side', 'core' );
 }
 
 // Adding Meta container admin shop_order pages to send NFT
-if ( ! function_exists( 'mv_add_other_fields_for_packaging' ) )
-{
-    function mv_add_other_fields_for_packaging()
-    {
+function mv_add_other_fields_for_packaging() {
         global $post;
 
 		$recipient_wallet = get_post_meta( $post->ID, 'wallet_address', true );
@@ -27,7 +67,6 @@ if ( ! function_exists( 'mv_add_other_fields_for_packaging' ) )
 		
 		wp_enqueue_script( 'web3-metamask', get_template_directory_uri() . '/js/web3-metamask.js', array (), null, false);
 
-    }
 }
 
 //Mel: 30/12/21. Add a new currency
